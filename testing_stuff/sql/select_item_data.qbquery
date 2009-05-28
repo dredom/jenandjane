@@ -1,0 +1,6 @@
+﻿SELECT pd.description, po.option, po.value, po.price
+  FROM productdata pd
+ INNER JOIN productoption po
+    ON po.productid = pd.productid
+ WHERE pd.productid = 3
+ ORDER BY po.seq

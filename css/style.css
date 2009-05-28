@@ -1,0 +1,66 @@
+<!--
+ BODY {
+      background: #900000 url('/img/bg.gif') repeat-y;
+      font-family: Arial,Helvetica,sans-serif;
+      color: #FFCCFF;
+      border-width: 1px}
+ 
+ #page {
+  	width: 800px;
+  	margin-left: 115px;
+ }
+     
+ A:link {color:#ffbebe; text-decoration:none}
+ A:visited {color:#ff8e8e; text-decoration:none}
+ A:hover {color:#FFFFFF; text-decoration:none}
+ 
+ .heading {color:#FFFFFF; font-size:18pt; letter-spacing:1pt;
+     font-family:Arial,Helvetica,sans-serif}
+ 
+ .logo { width: 7em;
+         color:#FFFFFF; font-size:20pt; letter-spacing:3pt;
+          text-align: center;
+          border-color: #FFFFFF; 
+          border-style: solid; 
+          border-width: 1px; 
+          padding-right: 6px; padding-left: 6px;
+          padding-bottom: 6px;
+          }
+ .logo-sub {color:#FFFFFF; font-size:8pt; padding-top: 1px; letter-spacing:normal;}
+          
+ .nav { width: 100%;
+      padding-left: 4px;
+      word-spacing: 4px;
+      border-color:#ffbebe;
+      border-style: solid;
+      border-width: 1px; 
+      border-left: thin none;
+      border-right: thin none;
+      padding-right: 4px;
+      }
+  .img_line { height: 1px; width: 100%; background-color: #ffbebe; }
+          
+ .pad_lr { padding-left: 4px; padding-right: 4px; }
+  
+ TD {font-family:Ariel,Helvetica,sans-serif}
+ 
+ IMG { border-color:#ffbebe; }
+ 
+ #shows { /* the pics and text table */
+ 	width: 77%;
+ 	margin-left: auto;
+ 	margin-right: auto; 
+ }
+ .pagenav {color:#FF99CC;  text-align: right; margin-top: 5px;}
+ table.show {
+ 	border-collapse: collapse;
+ 	border-color: #FF99CC;
+ }
+ table.show td {
+ 	border-width: 1px;
+ 	border-color: #FF99CC;
+ 	border-style: solid;
+ 	padding: 5px;
+ }
+ 
+-->

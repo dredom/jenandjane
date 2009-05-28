@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>YUI Module Test</title>
+<!-- Combo-handled YUI CSS files: -->
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/combo?2.6.0/build/container/assets/skins/sam/container.css">
+ <link rel=StyleSheet href="/css/style.css" type="text/css">
+ <style type="text/css">
+  .left { float:left; }
+  .right, .price { float:right; }
+  .price {
+  	text-align: right;
+  	width: 6em;
+  	margin-right: 1em;
+  }
+ .txt-hilite div {
+ 	background-color: firebrick;	
+ }
+
+ </style>
+
+</head>
+<body>
+	<!-- Dependencies --> 
+<!-- Combo-handled YUI JS files: -->
+<script type="text/javascript" src="http://yui.yahooapis.com/combo?2.6.0/build/yahoo-dom-event/yahoo-dom-event.js&2.6.0/build/connection/connection-min.js&2.6.0/build/container/container-min.js"></script>
+
+
+
+ <div id="page">
+
+  <table class="show">
+   <tr>
+    <td>
+
+	<div class="yui-skin-sam"> <!-- container for item  -->
+		
+		<div>n010-prl-14k</div>
+		
+		<div id="optionsdiv"> <!-- container for item options -->
+		
+			
+		</div>
+
+		<div id="addnew">
+			<a href="javascript:addOne();" >add new</a>
+		</div>
+	
+	</div>
+
+    </td>
+   </tr>
+  </table>
+
+ </div> <!-- page -->
+ 	
+<script>
+ var myM2 = new YAHOO.widget.Module("myM2");
+ //myM2.setHeader("<h4>M2 Head</h4>");
+ myM2.setBody("M2 Bod");
+ //myM2.setFooter("M2 my foot");
+ var el = document.getElementById('optionsdiv');
+ myM2.render(el);
+ var count = 0;
+
+ var responseOptionSuccess = function(o){ 
+		/* Please see the Success Case section for more
+		 * details on the response object's properties.
+		 * o.tId
+		 * o.status
+		 * o.statusText
+		 * o.getResponseHeader[ ]
+		 * o.getAllResponseHeaders
+		 * o.responseText
+		 * o.responseXML
+		 * o.argument
+		 */ 
+	var optblock = new YAHOO.widget.Module("opt"+count);
+	optblock.setBody(o.responseText);
+	var el = document.getElementById('optionsdiv');
+	optblock.render(el);
+ }; 
+ var responseFailure = function(o){ 
+		alert(' failed: ' + o.status + ' ' + o.statusText);
+ } 
+
+ function addOne() {
+	 count++;
+	 var params = {
+			 'name':'Jones',
+			 'value':24.50 + count,
+			 'count':count
+	 }
+	 alert('addOne()');
+	 callAjax('yui-module-ajax.php', params, responseOptionSuccess);
+ }
+ 
+	 function callAjax(url, params, successFunction) {
+		var getUrl = '/test/' + url + '?';
+		for (param in params) {
+			getUrl += param + '=' + params[param] + '&';
+		}
+		alert(getUrl);
+		var callback = {
+	 	  		success:successFunction, 
+	 		  	failure:responseFailure,
+	 		  	argument:params
+	 	}
+	 	var transaction = YAHOO.util.Connect.asyncRequest('GET', getUrl, callback); 
+	 }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+--
+-- Table structure for table `product`
+--
+
+DROP TABLE IF EXISTS `product`;
+CREATE TABLE IF NOT EXISTS `product` (
+  `id`       varchar(16) collate latin1_general_ci NOT NULL,
+  `category` char(1) collate latin1_general_ci NOT NULL,
+  `style`    smallint(6)    NOT NULL,
+  `type`     varchar(5) collate latin1_general_ci NOT NULL,
+  `material` varchar(5) collate latin1_general_ci NOT NULL,
+  PRIMARY KEY  (`id`)
+) 
+ ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci  
+ COMMENT='Core product that everything references';
+
+ALTER TABLE `product` ADD UNIQUE (
+  `style` ,
+  `category` ,
+  `type` ,
+  `material`
+) 

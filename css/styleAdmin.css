@@ -1,0 +1,16 @@
+<--
+ .txt {
+ }
+ .txt-hilite {
+ 	background-color: firebrick;	
+ }
+ .txt-edit {
+ 	background-color: firebrick;
+ }
+ textarea.txt-edit {
+ 	background-color: ivory;
+ }
+ .hidden {
+ 	display: none;
+ }
+-->
