@@ -6,6 +6,7 @@
  class ItemView {
  	public $id;
  	public $code;
+ 	public $name;
  	public $description;	// ProductData
  	public $options;		// array of ProductOption with price
  } 	
