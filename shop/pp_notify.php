@@ -1,6 +1,7 @@
 <?php
  require '../init.php';
- Logger::info("pp_notify from PayPal: " . $_SERVER['REMOTE_ADDR']);
+ Logger::info("pp_notify from PayPal: ");
+ require 'shop.config.php';
  // Read the post from PayPal and add 'cmd'
  $req = 'cmd=_notify-validate';
  foreach ($_POST as $key => $value) {
@@ -9,9 +10,8 @@
 	$req .= "&$key=$value";
  }
  $txnType = $_POST['txn_type'];
- $custom = $_POST['custom'];
  Logger::info("pp_notify[{$txnType}] $req");
-  $sandbox = $custom == 'development' ? 'sandbox.' : '';
+  $sandbox = $test_ipn == '1' ? 'sandbox.' : '';
  
 // Post back to PayPal to validate
  $header .= "POST /cgi-bin/webscr HTTP/1.0\r\n";
@@ -30,6 +30,8 @@
  	$res = fgets ($fp, 1024);
  }
  fclose ($fp);
+
+ $email = $test_ipn == '1' ? shop_email_test_to : shop_email_to;
  
  if (strcmp ($res, "VERIFIED") != 0) {
 	Logger::error("pp_notify[{$txnType}] Invalid $res");
@@ -40,13 +42,14 @@
  // Verified
  Logger::info("pp_notify[$txnType] $res");
  
- $email = 'untiedt@live.com';
  switch ($txnType) {
  	
  	case 'cart':
  		// verify price
  		// email jane
  		// write to orders db?
+ 		require DOCPATH.'jewel/process_paypal_order.tran.php';
+ 		execTransaction('shop', 'processOrder');
  		break;
  		
  	default:
