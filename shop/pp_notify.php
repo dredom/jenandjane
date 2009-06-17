@@ -11,6 +11,7 @@
  }
  $txnType = $_POST['txn_type'];
  Logger::info("pp_notify[{$txnType}] $req");
+ $test_ipn = $_POST['test_ipn'];
   $sandbox = $test_ipn == '1' ? 'sandbox.' : '';
  
 // Post back to PayPal to validate
