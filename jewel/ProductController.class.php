@@ -10,7 +10,7 @@ class ProductController extends BaseAjaxController {
 				break;
 				
 			case 'processOrder':
-				$this->processPayPayOrder();
+				$this->processPayPalOrder();
 				break;
 		}
 
@@ -44,10 +44,13 @@ class ProductController extends BaseAjaxController {
 		Logger::info('Purchase page view ['.$this->template->item->id.']['.$this->template->item->code.']');
 	}
 		
-	private function processPayPayOrder() {
+	private function processPayPalOrder() {
 		// Put all paypal notify parameters into template
 		foreach ($_POST as $key => $value){
 			$this->template->$key = $value;
+		}
+		if (!isset($this->template->num_cart_items)) {
+			$this->template->num_cart_items = 1;
 		}
 				// TODO get product item
 	}

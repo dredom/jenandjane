@@ -15,8 +15,10 @@ function send1() {
 	$first_name = "Joanne";
 	$last_name = "Penchant";
 	$payer_email = "jo@penchant.net";
+	$contact_phone = '206-123-4567';
 	$payer_status = "confirmed";
-	$payment_gross = 165.00;
+	$mc_currency = "USD";
+	$mc_gross = 171.09;
 	$mc_shipping = 0.00;
 	$mc_fee = 5.09;
 	$mc_shipping = 0.00;
@@ -26,17 +28,25 @@ function send1() {
 	$address_city = "La Crescenta";
 	$address_state = "CA";
 	$address_zip = "91242";
+	$address_country = "USA";
+	$memo = "Can't wait!";
 	$num_cart_items = 1;
+	$quantity1 = 1;
 	$item_number1 = "n003-qtz-14k";
-	$item_name1 = "Necklace";
+	$item_name1 = "Necklace: Pearls on silk...";
 	$mc_gross_1 = 165.00;
-	$tax1 = 6.25;
-	$mc_shipping1 = 0.00;
+	$mc_shipping1 = 11.00;
+	$option_name1 = 'length';
+	$option_selection1 = '18"';
 	
 	$key = 19600324;
 	$email = "untiedt@gmail.com";
 	
+	ob_start();
 	include DOCPATH.'vw/jewel/email/pp_cart.php';
+	$body = ob_get_clean();
+	echo $subject;
+	echo $body;
 }
 
 

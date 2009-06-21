@@ -31,8 +31,6 @@
 	 	$body = ob_get_clean();
 	 	
  		$email = $template->test_ipn == '1' ? shop_email_test_to : shop_email_to;
-	 	//$email = shop_email_to;
-	 	//$email = 'untiedt@gmail.com';	// TESTING
 	 	
 	 	$headers = 'From: '.shop_email_from. "\r\n" .
     	'Reply-To: '.shop_email_from . "\r\n" .
@@ -42,6 +40,8 @@
 	 	$subject = "JJ PayPal $template->txn_type Transaction: $template->first_name $template->last_name";
 	 	Logger::info("PayPal email being sent to $email");
 	 	mail($email, $subject, $body . "\n\n", $headers );
+	 	
+	 	Logger::info("Emailed Paypal order to $email: $subject");
 	 	
 	 	
 	 } else {
