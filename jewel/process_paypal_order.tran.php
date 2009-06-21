@@ -10,7 +10,7 @@
  
  function execTransaction($site, $function) {
  	
- 	//echo ' start_tran ';
+	 Logger::info('start process_paypal_order.tran...');
 	 try {
 		 $controller = new ProductController();
 		 $controller->site = $site;
@@ -23,6 +23,8 @@
 	 	Logger::error(__FILE__ . $e->getMessage());
 	 	return;
 	 }
+	 
+	 Logger::info('After controller->handle...');
 	 
 	 if ($controller->status == 'success') {
 	 	// redirect output to a buffer
@@ -45,7 +47,7 @@
 	 	
 	 	
 	 } else {
-	 	Logger::error("PayPal $function processing error");
+	 	Logger::error("PayPal $site $function processing error");
 	 	return;
 	 }
 	

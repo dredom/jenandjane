@@ -42,6 +42,8 @@
  
  // Verified
  Logger::info("pp_notify[$txnType] $res");
+ include DOCPATH.'jewel/process_paypal_order.tran.php';
+ Logger::info("pp_notify[$txnType] after include...");
  
  switch ($txnType) {
  	
@@ -49,7 +51,6 @@
  		// verify price
  		// email jane
  		// write to orders db?
- 		require DOCPATH.'jewel/process_paypal_order.tran.php';
  		execTransaction('shop', 'processOrder');
  		break;
  		

@@ -52,7 +52,18 @@ class ProductController extends BaseAjaxController {
 		if (!isset($this->template->num_cart_items)) {
 			$this->template->num_cart_items = 1;
 		}
-				// TODO get product item
+		if (!isset($this->template->contact_phone)) {
+			$this->template->contact_phone = '(no phone)';
+		}
+		if (!isset($this->template->address_status)) {
+			$this->template->address_status = '(status not set)';
+		}
+		if (!isset($this->template->memo)) {
+			$this->template->memo = '';
+		}
+		
+		// TODO get product item
+		$this->status = 'success';
 	}
 		
 	private function getItem() {

@@ -1,8 +1,9 @@
 <?php
 /* Email subject and body - caller must capture with ob_start() */
-	$subject = "JJ PayPal $txnType Transaction: $first_name $last_name";
+	$subject = "JJ PayPal $txn_type Transaction: $first_name $last_name";
 	// format $emailtext from transaction
 	echo " We have a new order through PayPal! \n\n";
+	Logger::info('Building email...');
 	echo "$first_name $last_name, $payer_email, $contact_phone \t ($payer_status) \n";
 	echo " Currency:            ", $mc_currency, "\n";
 	echo " Full payment amount: ", number_format($mc_gross, 2), " \n";
@@ -26,4 +27,6 @@
 				'  Gross: $', number_format($gross, 2), 
 				'  Shipping: $', number_format($ship, 2), "\n\n";
 	}
+	echo "\n";
+	echo "Paypal transaction #: $txn_id";
 ?>
