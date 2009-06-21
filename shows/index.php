@@ -60,11 +60,12 @@
    </div>
    <div class="when">
     <ul>
-     <li>Designer in store every Tuesday <br/>
+     <li>Designer in store every Thursday <br/>
      </li>
-     <li>The Month of May - <i>Strawberies & Champaigne</i> <br>
-     The artists will be present. <br>
-     Thursday nights 5 pm - 9 pm
+     <li><b>Spring clearance sale!</b> <br/>
+     June 10 - 11 <br>
+     Wednesday & Thursday 6 pm - 10 pm
+     </li>
     </ul>
    </div>
   </div> <!-- location -->
@@ -125,9 +126,6 @@
    </div>
    <div class="when">
     <ul>
-     <li>May 22nd <br>
-     Friday 11 am - 6 pm
-     </li>
      <li>June 12 <br>
      Friday 11 am - 6 pm
      </li>
@@ -150,18 +148,6 @@
    </div>
    <div class="when">
     <ul>
-     <li>May 10th  <br>
-     Sunday 11 am - 6 pm
-     </li>
-     <li>May 16th  <br>
-     Saturday 11 am - 6 pm
-     </li>
-     <li>May 29 - 30  <br>
-     Friday & Saturday 11 am - 6 pm
-     </li>
-     <li>June 5 - 6  <br>
-     Friday & Saturday 11 am - 6 pm
-     </li>
      <li>June 19 - 20  <br>
      Friday & Saturday 11 am - 6 pm
      </li>
@@ -184,9 +170,6 @@
    </div>
    <div class="when">
     <ul>
-     <li>May 15th<br>
-     Friday 10 am - 3 pm
-     </li>
      <li>June 26th<br>
      Friday 10 am - 3 pm
      </li>
@@ -208,9 +191,6 @@
    </div>
    <div class="when">
     <ul>
-     <li>May 23rd <br>
-     Saturday 11 am - 6 pm
-     </li>
      <li>June 13th <br>
      Saturday 11 am - 6 pm
      </li>
@@ -237,7 +217,8 @@
    </div>
    <div class="when">
     <ul>
-     <li>August (date to be finalized)
+     <li>August 1 - 2 <br>
+     Saturday & Sunday 11 am - 7 pm
      </li>
     </ul>
    </div>
