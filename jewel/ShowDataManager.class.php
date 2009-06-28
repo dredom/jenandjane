@@ -107,7 +107,7 @@ class ShowDataManager extends DbManager {
 		return $this->stmtselectitem;		
 	}
 	
-	public function clearShowCache($site) {
+	public static function clearShowCache($site) {
 		$siteShow = $site.'-show'.self::VERSION;
 		Cacher::delete($siteShow);
 	}

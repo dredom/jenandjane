@@ -8,6 +8,7 @@
  require DOCPATH.'jewel/DbManager.class.php';
  require DOCPATH.'jewel/ProductDataManager.class.php';
  include DOCPATH.'jjadmin/User.php';
+ include DOCPATH.'jewel/ShowDataManager.class.php';
  
  function execTransaction($site, $function) {
  	Cacher::start();	// start session
@@ -44,9 +45,6 @@
 	 }
 	 
 	 // Clear cached pics
-	 
-	 include DOCPATH.'jewel/ShowDataManager.class.php';
-	 $mgr = new ShowDataManager;
-	 $mgr->clearShowCache($site);
+	 ShowDataManager::clearShowCache($site);
  } 
 ?>

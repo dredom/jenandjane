@@ -17,21 +17,13 @@ class ProductUpdateController extends BaseController {
 	}
 	
  	private function updateDescription() {	
-		if ( !isset($_GET['id']) ) {
-			header('HTTP/1.0 400 Bad request');
-	 		echo 'missing id';
-	 		$this->status = 'error';
-	 		return;
-		} 
-		$id = (int) $_GET['id'];
+		$id = $this->getParam('id');
+		if ($id === null) 
+			return;	
 		
-		if ( !isset($_GET['text']) ) {
-			header('HTTP/1.0 400 Bad request');
-	 		echo 'missing description';
-	 		$this->status = 'error';
-	 		return;
-		} 
-		$description = $_GET['text'];
+		$description = $this->getParam('text');
+		if ($description === null) 
+			return;	
 		
 		$data = new ProductData;
 		$data->productid = $id;

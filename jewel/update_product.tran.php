@@ -8,6 +8,7 @@
  require DOCPATH.'jewel/DbManager.class.php';
  require DOCPATH.'jewel/ProductDataManager.class.php';
  include DOCPATH.'jjadmin/User.php';
+ include DOCPATH.'jewel/ShowDataManager.class.php';
  
  function execTransaction($site, $function, $successView) {
  	Cacher::start();	// start session
@@ -33,8 +34,10 @@
 	 	return;
 	 }
 	 
+	 $template = new Template;
 	 if ($controller->status == 'success') {
 	 	header('HTTP/1.0 200 OK', true, 200);
+	 	echo ' controller success ';
 
 	 	$template->show($successView);
 
@@ -43,10 +46,6 @@
 	 	return;
 	 }
 	 
-	 // Clear cached pics
-	 
-	 include DOCPATH.'jewel/ShowDataManager.class.php';
-	 $mgr = new ShowDataManager;
-	 $mgr->clearShowCache($site);
+	ShowDataManager::clearShowCache($site);
  } 
 ?>
