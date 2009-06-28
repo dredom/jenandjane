@@ -9,9 +9,6 @@ class ProductController extends BaseAjaxController {
 				$this->getPurchasePageData();
 				break;
 				
-			case 'processOrder':
-				$this->processPayPalOrder();
-				break;
 		}
 
 		return $this->template;
@@ -44,28 +41,6 @@ class ProductController extends BaseAjaxController {
 		Logger::info('Purchase page view ['.$this->template->item->id.']['.$this->template->item->code.']');
 	}
 		
-	private function processPayPalOrder() {
-		// Put all paypal notify parameters into template
-		foreach ($_POST as $key => $value){
-			$this->template->$key = $value;
-		}
-		if (!isset($this->template->num_cart_items)) {
-			$this->template->num_cart_items = 1;
-		}
-		if (!isset($this->template->contact_phone)) {
-			$this->template->contact_phone = '(no phone)';
-		}
-		if (!isset($this->template->address_status)) {
-			$this->template->address_status = '(status not set)';
-		}
-		if (!isset($this->template->memo)) {
-			$this->template->memo = '';
-		}
-		
-		// TODO get product item
-		$this->status = 'success';
-	}
-		
 	private function getItem() {
 		//echo ' getOptions... ';
 		$id = $this->getParam('id');
@@ -87,16 +62,6 @@ class ProductController extends BaseAjaxController {
 		$this->template->site = $this->site;
 		$this->template->id = $id;
 		$this->template->item = $itemView;
-	}
-	
-	private function getParam($param) {
-		if ( !isset($_GET[$param]) ) {
-			header('HTTP/1.0 400 Bad request');
-	 		echo "missing $param ";
-	 		$this->status = 'error';
-	 		return null;
-		}
-		return $_GET[$param];
 	}
 }
 ?>

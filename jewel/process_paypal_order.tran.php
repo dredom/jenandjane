@@ -4,15 +4,15 @@
  * Send Jane an email with order details or hacker alert.
  * 2009-06
  */
- require DOCPATH.'jewel/ProductController.class.php';	// ??
  require DOCPATH.'jewel/DbManager.class.php';
  require DOCPATH.'jewel/ProductDataManager.class.php';
- 
+ require DOCPATH.'jewel/ShoppingController.class.php';
+
  function execTransaction($site, $function) {
  	
 	 Logger::info('start process_paypal_order.tran...');
 	 try {
-		 $controller = new ProductController();
+		 $controller = new ShoppingController();
 		 $controller->site = $site;
 		 $controller->function = $function;
 		 $controller->productDataManager = new ProductDataManager();
@@ -33,6 +33,7 @@
 	 	$body = ob_get_clean();
 	 	
  		$email = $template->test_ipn == '1' ? shop_email_test_to : shop_email_to;
+ 		$email = "untiedt@gmail.com";
 	 	
 	 	$headers = 'From: '.shop_email_from. "\r\n" .
     	'Reply-To: '.shop_email_from . "\r\n" .
