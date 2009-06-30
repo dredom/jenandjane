@@ -8,13 +8,13 @@ class ProductController extends BaseAjaxController {
 			case 'getPurchasePageData':
 				$this->getPurchasePageData();
 				break;
-				
 		}
 
 		return $this->template;
 	}
 	
 	private function getPurchasePageData(){ 
+		//echo ' getPurchasePageData ';
 		$this->template->imgurl =  $_GET['imgurl'];
 		$this->getItem();
 		
@@ -42,7 +42,6 @@ class ProductController extends BaseAjaxController {
 	}
 		
 	private function getItem() {
-		//echo ' getOptions... ';
 		$id = $this->getParam('id');
 		if ($id === null) 
 			return;		
@@ -54,7 +53,7 @@ class ProductController extends BaseAjaxController {
 		} catch (Exception $e) {
 			Logger::error($e->getMessage());
 			header('HTTP/1.0 500 Server error');
-			//echo 'db failed';
+			echo 'db failed';
 	 		$this->status = 'error';
 			return;
 		}
@@ -62,6 +61,16 @@ class ProductController extends BaseAjaxController {
 		$this->template->site = $this->site;
 		$this->template->id = $id;
 		$this->template->item = $itemView;
+	}
+	
+	protected function getParam($param) {
+		$value = parent::getParam($param);
+		if ( $value == null ) {
+			header('HTTP/1.0 400 Bad request');
+	 		echo "missing $param ";
+	 		$this->status = 'error';
+		}
+		return $value;
 	}
 }
 ?>

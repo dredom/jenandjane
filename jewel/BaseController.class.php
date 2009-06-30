@@ -67,6 +67,13 @@ abstract class BaseController {
  		}
 		return $this->pdo;
 	}
+	
+	protected function getParam($param) {
+		if ( !isset($_GET[$param]) ) {
+	 		return null;
+		}
+		return $_GET[$param];
+	}
 }
 
 abstract class BasePageController extends BaseController {

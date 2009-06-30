@@ -36,8 +36,8 @@
  		$email = "untiedt@gmail.com";
 	 	
 	 	$headers = 'From: '.shop_email_from. "\r\n" .
-    	'Reply-To: '.shop_email_from . "\r\n" .
-    	'X-Mailer: PHP/' . phpversion();
+    		'Reply-To: '.shop_email_from . "\r\n" .
+    		'X-Mailer: PHP/' . phpversion();
 	 	
 	 	// TODO $subject built like body
 	 	$subject = "JJ PayPal $template->txn_type Transaction: $template->first_name $template->last_name";
@@ -48,7 +48,7 @@
 	 	
 	 	
 	 } else {
-	 	Logger::error("PayPal $site $function processing error");
+	 	Logger::error("PayPal $site $function processing status error");
 	 	return;
 	 }
 	
