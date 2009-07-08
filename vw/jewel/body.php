@@ -215,4 +215,14 @@
  	var transaction = YAHOO.util.Connect.asyncRequest('GET', getUrl, callback); 
  } 
 
+ <?php /* Form cartAdd is in pp_add-to-cart.php */?>
+ function addToCart(productid, seq, optiontype, value, price, shipping) {
+   document.cartAdd.on0.value = optiontype;
+   document.cartAdd.os0.value = value;
+   document.cartAdd.amount.value = price;
+   document.cartAdd.custom.value = 'productid='+productid;
+   document.cartAdd.shipping.value = shipping;
+   document.cartAdd.submit();
+ }
+ 
 </script>

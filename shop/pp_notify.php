@@ -32,7 +32,7 @@
  }
  fclose ($fp);
 
- $email = $test_ipn == '1' ? shop_email_test_to : shop_email_to;
+ $email = $test_ipn == '1' ? shop_email_to_test : shop_email_to;
  
  if (strcmp ($res, "VERIFIED") != 0) {
 	Logger::error("pp_notify[{$txnType}] Invalid $res");

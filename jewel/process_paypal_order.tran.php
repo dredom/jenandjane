@@ -32,8 +32,7 @@
 	 	$template->show('jewel/email/pp_cart');
 	 	$body = ob_get_clean();
 	 	
- 		$email = $template->test_ipn == '1' ? shop_email_test_to : shop_email_to;
- 		$email = "untiedt@gmail.com";
+ 		$email = $template->test_ipn == '1' ? shop_email_to_test : shop_email_to;
 	 	
 	 	$headers = 'From: '.shop_email_from. "\r\n" .
     		'Reply-To: '.shop_email_from . "\r\n" .
