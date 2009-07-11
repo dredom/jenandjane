@@ -17,7 +17,7 @@
 	echo "\n";
 	echo "Order: \n";
 	for ($i = 1; $i <= $num_cart_items; $i++) {
-		$gross = ${'mc_gross'.$i};
+		$gross = ${'mc_gross_'.$i};
 		$ship = ${'mc_shipping'.$i};
 		echo "$i. ${'quantity'.$i} x ${'item_number'.$i} ${'item_name'.$i}  \n ";
 		echo "   ${'option_name'.$i}   ${'option_selection'.$i} ", 
