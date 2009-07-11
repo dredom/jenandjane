@@ -62,10 +62,6 @@
     <ul>
      <li>Designer in store every Thursday <br/>
      </li>
-     <li><b>Spring clearance sale!</b> <br/>
-     June 10 - 11 <br>
-     Wednesday & Thursday 6 pm - 10 pm
-     </li>
     </ul>
    </div>
   </div> <!-- location -->
@@ -126,8 +122,8 @@
    </div>
    <div class="when">
     <ul>
-     <li>June 12 <br>
-     Friday 11 am - 6 pm
+     <li>July 31 <br>
+     Friday noon - 7 pm
      </li>
     </ul>
    </div>
@@ -148,8 +144,23 @@
    </div>
    <div class="when">
     <ul>
-     <li>June 19 - 20  <br>
-     Friday & Saturday 11 am - 6 pm
+     <li>July 17 - 18  <br>
+     Friday & Saturday 11 am - 5 pm
+     </li>
+     <li>July 24  <br>
+     Friday 11 am - 5 pm
+     </li>
+     <li>July 26  <br>
+     Sunday 11 am - 5 pm
+     </li>
+     <li>August 7 - 8  <br>
+     Friday & Saturday 11 am - 5 pm
+     </li>
+     <li>August 14  <br>
+     Friday  11 am - 5 pm
+     </li>
+     <li>August 21 - 22  <br>
+     Friday & Saturday 11 am - 5 pm
      </li>
 
     </ul>
@@ -170,8 +181,7 @@
    </div>
    <div class="when">
     <ul>
-     <li>June 26th<br>
-     Friday 10 am - 3 pm
+     <li>(Pending)<br>
      </li>
     </ul>
    </div>
@@ -191,11 +201,17 @@
    </div>
    <div class="when">
     <ul>
-     <li>June 13th <br>
-     Saturday 11 am - 6 pm
+     <li>July 25th <br>
+     Saturday 11 am - 5 pm
      </li>
-     <li>June 27th <br>
-     Saturday 11 am - 6 pm
+     <li>August 9th <br>
+     Sunday 11 am - 5 pm
+     </li>
+     <li>August 15 - 16 <br>
+     Saturday & Sunday 11 am - 5 pm
+     </li>
+     <li>August 29th <br>
+     Sunday 11 am - 5 pm
      </li>
     </ul>
    </div>
