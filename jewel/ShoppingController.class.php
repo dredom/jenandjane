@@ -15,10 +15,6 @@ class ShoppingController extends BaseController {
 	}
 		
 	private function processPayPalOrder() {
-		// Put all paypal notify parameters into template
-		foreach ($_POST as $key => $value){
-			$this->template->$key = $value;
-		}
 		// Expected values - defaults
 		$defaultValues = array(
 			'num_cart_items'=>1,
@@ -38,10 +34,13 @@ class ShoppingController extends BaseController {
 			'memo'=>''
 		);
 	 	foreach ($defaultValues as $dvk => $dvv) {
- 			if (!isset( $this->template->$dvk )) {
  				$this->template->$dvk = $dvv;
- 			}
  		}
+		// Put all paypal notify parameters into template
+		foreach ($_POST as $key => $value){
+			$this->template->$key = $value;
+		}
+		
  		for ($i = 1; $i <= $this->template->num_cart_items; $i++) {
  			if (!isset($this->template->{'option_name'.$i})) {
  				$this->template->{'option_name'.$i} = '(no option)';
