@@ -42,11 +42,13 @@ class ShoppingController extends BaseController {
 		}
 		
  		for ($i = 1; $i <= $this->template->num_cart_items; $i++) {
- 			if (!isset($this->template->{'option_name'.$i})) {
- 				$this->template->{'option_name'.$i} = '(no option)';
+ 			$option_name = $this->template->{'option_name1_'.$i};
+ 			if (!isset($option_name)) {
+ 				$this->template->{'option_name1_'.$i} = '(no option)';
  			}
- 			if (!isset($this->template->{'option_selection'.$i})) {
- 				$this->template->{'option_selection'.$i} = '(no option selection)';
+ 			$option_selection = $this->template->{'option_selection1_'.$i};
+ 			if (!isset($option_selection)) {
+ 				$this->template->{'option_selection1_'.$i} = '(no option selection)';
  			}
  		}
 		

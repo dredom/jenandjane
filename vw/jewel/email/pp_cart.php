@@ -20,7 +20,7 @@
 		$gross = ${'mc_gross_'.$i};
 		$ship = ${'mc_shipping'.$i};
 		echo "$i. ${'quantity'.$i} x ${'item_number'.$i} ${'item_name'.$i}  \n ";
-		echo "   ${'option_name'.$i}   ${'option_selection'.$i} ", 
+		echo "   ${'option_name1_'.$i}   ${'option_selection1_'.$i} ", 
 				'  Gross: $', number_format($gross, 2), 
 				'  Shipping: $', number_format($ship, 2), "\n\n";
 	}
