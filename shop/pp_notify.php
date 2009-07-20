@@ -1,6 +1,5 @@
 <?php
  require '../init.php';
- require 'shop.config.php';
  Logger::info("pp_notify from PayPal: 1");
  // Read the post from PayPal and add 'cmd'
  $req = 'cmd=_notify-validate';

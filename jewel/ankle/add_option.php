@@ -8,7 +8,7 @@
  require DOCPATH.'jewel/add_product.tran.php';
 
  $site = 'ankle';
- $function = 'option';
+ $function = 'addOption';
  
  execTransaction($site, $function);
  

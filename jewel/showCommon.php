@@ -7,13 +7,14 @@
  * Created on Nov 18, 2008
  *
  */
- define('DOCPATH', $_SERVER['DOCUMENT_ROOT'].'/');
+ //define('DOCPATH', $_SERVER['DOCUMENT_ROOT'].'/');
  require('authorized.php');
  require(DOCPATH.'mdl/Pic.php');
  require(DOCPATH.'mdl/Pics.php');
  require(DOCPATH.'mdl/Show.php');
  
- session_start();	// include all class objects before session_start
+ //session_start();	// include all class objects before session_start
+ Cacher::start();
  define('AUTHORIZED', authorized());
  
  function loadPics($site) {

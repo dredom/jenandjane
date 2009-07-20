@@ -1,7 +1,7 @@
 <?php
  $name = $header . ': ' . $item->name;
 ?>
- <form name="cartAdd" target="paypal" action="https://www.<?php echo shop_paypal_sandbox?>paypal.com/cgi-bin/webscr" method="post"> 
+ <form name="cartAdd" target="_self" action="https://www.<?php echo shop_paypal_sandbox?>paypal.com/cgi-bin/webscr" method="post"> 
 	<input type="hidden" name="business" value="<?php echo shop_biz_email?>"> 
 	<!-- Specify a PayPal Shopping Cart View Cart button. --> 
 	<input type="hidden" name="cmd" value="_cart"> 

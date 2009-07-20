@@ -5,7 +5,7 @@ class ProductUpdateController extends BaseController {
 		
 	public function handle() {
 		switch ($this->function) {
-			case 'description':
+			case 'updateDescription':
 				$this->updateDescription();
 				break;
 			case 'option':
@@ -137,14 +137,14 @@ class ProductUpdateController extends BaseController {
 		$this->template->option = null;
 	}
 
-	private function getParam($param) {
-		if ( !isset($_GET[$param]) ) {
+	protected function getParam($param) {
+		$value = parent::getParam($param);
+		if ( $value === null ) {
 			header('HTTP/1.0 400 Bad request');
 	 		echo "missing $param ";
 	 		$this->status = 'error';
-	 		return null;
 		}
-		return $_GET[$param];
+		return $value;
 	}
 }
 ?>

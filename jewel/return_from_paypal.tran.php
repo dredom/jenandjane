@@ -15,6 +15,8 @@
  	}
  	Logger::info("Return from PayPal checkout: " . $req);
  	
+ 	Cacher::delete('is_cart');
+ 	
  	$cf = (isset($_REQUEST['cf'])) ? $_REQUEST['cf'] : "/";
  	$template->cf = $cf; 
  	

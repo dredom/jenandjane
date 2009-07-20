@@ -3,7 +3,7 @@
 // and renders it.
 // Controller for bracelets.
  
- error_reporting(E_ALL);
+ require '../../init.php';
  require '../showCommon.php';
  
  $title = 'bracelets';

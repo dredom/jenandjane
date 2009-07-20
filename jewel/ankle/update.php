@@ -8,7 +8,7 @@
  require DOCPATH.'jewel/update_product.tran.php';
  
  $site = 'ankle';
- $function = 'description';
+ $function = 'updateDescription';
  $successView = 'ok';
  
  execTransaction($site, $function, $successView);

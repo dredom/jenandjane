@@ -5,7 +5,7 @@ class ProductAddController extends BaseController {
 		
 	public function handle() {
 		switch ($this->function) {
-			case 'option':
+			case 'addOption':
 				$this->addOption();
 				break;
 		}
@@ -92,14 +92,14 @@ class ProductAddController extends BaseController {
 		$this->template->item = $item;
 	}
 	
-	private function getParam($param) {
-		if ( !isset($_GET[$param]) ) {
+	protected function getParam($param) {
+		$value = parent::getParam($param);
+		if ( $value === null ) {
 			header('HTTP/1.0 400 Bad request');
 	 		echo "missing $param ";
 	 		$this->status = 'error';
-	 		return null;
 		}
-		return $_GET[$param];
+		return $value;
 	}
 }
 ?>

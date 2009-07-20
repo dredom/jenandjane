@@ -3,7 +3,7 @@
 // Earrings.
 // Controller for earrings.
  
- error_reporting(E_ALL);
+ require '../../init.php';
  require '../showCommon.php';
  
  $title = 'bracelets';

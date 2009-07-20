@@ -21,13 +21,34 @@
 				<div class="left">
 		    		<?php echo $item->code?> &nbsp; &nbsp;
 				</div>
+
+				<div class="right"> <?php /* options - positions options to the right */ ?>
+				
+				<?php 
+				$endj = sizeof($item->options);
+				for ($j = 0; $j < $endj; $j++) {
+					$option = $item->options[$j];
+				?>
+				  <div style="clear: both;">
+
+					<div class="left">
+			    		<?php echo $option->value?>
+					</div>
+					<div class="price">
+			    		<?php echo '$', number_format($option->price, 2)?>
+					</div>
+				
+					<div class="left">
+						<a href="javaScript:addToCart(<?php echo $item->id?>,<?php echo $option->seq?>,'<?php echo $option->optiontype?>','<?php echo urlencode($option->value)?>',<?php echo $option->price?>,<?php echo $optionShipping[$option->seq]?>);"
+							title="PayPal - The safer, easier way to pay online"> 
+							purchase
+						</a>
+					</div>
 			
-				<div class="right">
-					<input type="submit" name="submit" border="0" value="Add to cart"
-					onclick="javaScript:document.cartAdd.submit();" 
-					title="PayPal - The safer, easier way to pay online"> 
+				  </div>
+				<?php } /* end $j options */?>
+			
 				</div>
-			
 			</div>
 			<div class="right" style="clear:both; margin:3px;">
 				<input id="hide1" type="button" value="CANCEL" class="cancel">

@@ -22,7 +22,10 @@
  /*** include the caching class ***/
  require DOCPATH . 'jewel/' . 'Cacher.class.php';
 
- $is_cart = isset($_GET['is_cart']) ? (boolean) $_GET['is_cart'] : false;
+ include 'ENV.php';
+ 
+ /*** shopping cart stuff ***/
+ require DOCPATH . 'shop/shop.config.php';
  
  // Production error handler
  date_default_timezone_set('America/Los_Angeles');
@@ -40,7 +43,6 @@
  }
  set_error_handler('errorHandler');
 
- include 'ENV.php';
  if (ENV == 'development') {
 	 function errorHandlerDev($error, $error_string, $filename, $line, $symbols) {
 	 	echo "<p>error: $error $error_string " .
