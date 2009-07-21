@@ -99,7 +99,7 @@
 			?>
 			<?php if ($hasPrice) {?>
 			<div class="purchase">
-				<a href="javascript:getPurchaseDialog(<?php echo $item->id?>, '<?php echo $item->imageLargeUrl?>')">purchase</a>
+				<a href="javascript:getPurchaseDialog(<?php echo $item->id?>,'<?php echo $item->imageLargeUrl?>')">purchase</a>
 			</div>
 			<?php }?>
 		<?php }?>
@@ -138,6 +138,12 @@
 	imagePanel = YAHOO.image.panel1;	// save panel reference
  }
 
+ var responseLargeImageSuccess = function(o) {
+	var divid = o.argument.divid;
+	document.getElementById(divid).innerHTML = o.responseText;
+	showLargeImage(divid);
+ }; 
+
  function getLargeImage(imgurl) {
   	//alert('getLargeImage('+imgurl+', '+divid+')');
   	var objImage = new Image().src = imgurl;		// preload for center()
@@ -152,12 +158,12 @@
 	callAjax('show_image.php', params, responseLargeImageSuccess);
  }
 
- var responseLargeImageSuccess = function(o) {
+
+ var responseShowPurchaseSuccess = function(o) {
 	var divid = o.argument.divid;
 	document.getElementById(divid).innerHTML = o.responseText;
-	showLargeImage(divid);
+	showPurchaseDialog(divid);
  }; 
-
 
  <?php /* Show the purchase panel for an item */?>
  function getPurchaseDialog(id, imgurl) {
@@ -176,12 +182,6 @@
 	callAjax('show_purchase.php', params, responseShowPurchaseSuccess);
  }
 
-
- var responseShowPurchaseSuccess = function(o) {
-	var divid = o.argument.divid;
-	document.getElementById(divid).innerHTML = o.responseText;
-	showPurchaseDialog(divid);
- }; 
 
  function showPurchaseDialog(divid) {
 	//alert('showPurchaseDialog');
