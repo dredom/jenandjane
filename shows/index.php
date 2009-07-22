@@ -42,6 +42,7 @@
 
 <?php
  define("SITE","shows");
+ require '../jewel/Cacher.class.php';
  require('../vw/head/nav.php');
 ?>
 

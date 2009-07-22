@@ -17,6 +17,7 @@
   <td>  <!-- big <td> -->
   
  <br>
+ <?php require '../jewel/Cacher.class.php';?>
  <?php require('../vw/head/logo.php'); ?>
  <br>
 

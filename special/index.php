@@ -19,6 +19,7 @@
 
 <?php
  define("SITE","special");
+ require '../jewel/Cacher.class.php';
  require('../vw/head/nav.php');
 ?>
 <div align=center>

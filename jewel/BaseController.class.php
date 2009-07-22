@@ -77,14 +77,14 @@ abstract class BaseController {
 }
 
 abstract class BasePageController extends BaseController {
-	function init() {
+	protected function init() {
 		$cf = 'http://www.jenandjane.com' . $_SERVER['REQUEST_URI'];
 		$this->template->cf = $cf;
 	}
 }
 
 abstract class BaseAjaxController extends BaseController {
-	function init() {
+	protected function init() {
 		if ( isset($_GET['cf']) ) {
 			$this->template->cf = $_GET['cf'];
 		}
