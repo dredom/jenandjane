@@ -1,6 +1,11 @@
 <?php
-abstract class BaseController {
+abstract class BaseController2 {
 
+	const PAGE = 'page';
+	const AJAX = 'ajax';
+	
+	private $type;
+	
 	/*
 	 * Site or directory segment
 	 */
@@ -16,20 +21,13 @@ abstract class BaseController {
 	/*
 	 * @registry object
 	 */
-	protected $context;
 	protected $template;
 
 	private $pdo;
 
-	function __construct($context = null, $template = null) {
-		if (!$context) {
-			$context = new Context();
-		}
-		$this->context = $context;
-		if (!$template) {
-			$template = new Template($context);
-		}
-		$this->template = $template;
+	function __construct($type = self::PAGE) {
+		$this->type = $type;
+		$this->template = new Template;
 		$this->init();
 	}
 	
@@ -54,7 +52,19 @@ abstract class BaseController {
 	/**
 	 * Internal initialization for Ajax vs Page
 	 */
-	protected function init() { }
+	protected function init() {
+		switch ($this->type) {
+		case self::PAGE:
+			$cf = 'http://www.jenandjane.com' . $_SERVER['REQUEST_URI'];
+			$this->template->cf = $cf;
+			break;
+		case self::AJAX:
+			if ( isset($_GET['cf']) ) {
+				$this->template->cf = $_GET['cf'];
+			}
+			break;
+		}
+	}
 
 	/**
 	 * PHP Data Objects - database abstraction
@@ -75,15 +85,4 @@ abstract class BaseController {
 		return $_GET[$param];
 	}
 }
-
-
-
-abstract class BaseAjaxController extends BaseController {
-	protected function init() {
-		if ( isset($_GET['cf']) ) {
-			$this->template->cf = $_GET['cf'];
-		}
-	}
-}
-
 ?>

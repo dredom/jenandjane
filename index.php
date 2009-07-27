@@ -19,7 +19,11 @@
 <br>
 
 <br><br>
- <?php require('vw/head/logo.php'); ?>
+ <?php 
+ 	require('vw/head/logo.php');
+ 	require 'shop/shop.config.php';
+ 	require 'vw/head/cart.php';
+ ?>
 <br><br>
 
 <div class="nav">
@@ -28,7 +32,7 @@
  <a href="shows">shows</a> &middot; 
  <a href="news">press</a> &middot; 
  <a href="stores">stores</a> &middot; 
- your order
+ <a href='javaScript:document.cart.submit()'><span>shopping&nbsp;cart</span></a>
 </div>
 
 <table class=pad_lr align="center" >

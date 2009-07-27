@@ -1,5 +1,5 @@
 <?php
-class JewelShowController extends BasePageController {
+class JewelShowController extends BaseController2 {
 	public $type;
 	private $picsPerPage = 4;
 		
