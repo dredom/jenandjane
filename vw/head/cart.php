@@ -1,5 +1,6 @@
 <?php
- $continue = isset($cf) ? $cf : 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+ $continue = 'http://' . $_SERVER['HTTP_HOST'];
+ $continue .= isset($cf) ? $cf : $_SERVER['REQUEST_URI'];
 ?>
  <form name="cart" target="paypal" action="https://www.<?php echo shop_paypal_sandbox?>paypal.com/cgi-bin/webscr" method="post"> 
 	<input type="hidden" name="business" value="<?php echo shop_biz_email?>"> 

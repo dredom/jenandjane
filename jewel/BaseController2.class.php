@@ -55,7 +55,7 @@ abstract class BaseController2 {
 	protected function init() {
 		switch ($this->type) {
 		case self::PAGE:
-			$cf = 'http://www.jenandjane.com' . $_SERVER['REQUEST_URI'];
+			$cf = $_SERVER['REQUEST_URI'];
 			$this->template->cf = $cf;
 			break;
 		case self::AJAX:

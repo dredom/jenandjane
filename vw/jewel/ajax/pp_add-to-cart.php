@@ -1,5 +1,7 @@
 <?php
  $name = $header . ': ' . $item->name;
+ $continue = 'http://' . $_SERVER['HTTP_HOST'];
+ $continue .= isset($cf) ? $cf : $_SERVER['REQUEST_URI'];
 ?>
  <form name="cartAdd" target="_self" action="https://www.<?php echo shop_paypal_sandbox?>paypal.com/cgi-bin/webscr" method="post"> 
 	<input type="hidden" name="business" value="<?php echo shop_biz_email?>"> 
@@ -18,8 +20,7 @@
 	<input type="hidden" name="custom" value="<?php /* option.productid */?>">
 	<input type="hidden" name="no_note" value="0"><?php /* customer note allowed */?>
 	<input type="hidden" name="no_shipping" value="2"><?php /* require shipping address */?>
-	<input type="hidden" name="cancel_return" value="<?php echo $cf?>">
-	<input type="hidden" name="notify_url" value="http://www.jenandjane.com/shop/pp_notify.php"><?php /* TODO set IPN URL in profile, not here */?>
+	<input type="hidden" name="cancel_return" value="<?php echo $continue?>">
 	<input type="hidden" name="return" value="http://www.jenandjane.com/shop/pp_return.php?cf=<?php echo $cf?>">
 	<input type="hidden" name="rm" value="2"><?php /* POST with all params */?>
 	<img alt="" border="0" src="https://www.<?php echo $dev?>paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
