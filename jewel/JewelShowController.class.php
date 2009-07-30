@@ -1,7 +1,7 @@
 <?php
 class JewelShowController extends BaseController2 {
-	public $type;
-	private $picsPerPage = 4;
+	public $function;
+	const picsPerPage = 4;
 		
 	public function handle() {
  		include DOCPATH.'mdl/Show.class.php';
@@ -10,7 +10,7 @@ class JewelShowController extends BaseController2 {
  		include DOCPATH.'jewel/ShowDataManager.class.php';
  
  		$mgr = new ShowDataManager;
-		$show = $mgr->getShow($this->site, $this->picsPerPage);
+		$show = $mgr->getShow($this->site, self::picsPerPage);
  		
 		// Did we get here from a next/prev link?
 		if ( isset($_GET['page']) ) {
