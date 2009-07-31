@@ -24,8 +24,6 @@
 	 	return;
 	 }
 	 
-	 Logger::info('After controller->handle...');
-	 
 	 if ($controller->status == 'success') {
 	 	// redirect output to a buffer
 		ob_start(); 	
@@ -40,7 +38,6 @@
 	 	
 	 	// TODO $subject built like body
 	 	$subject = "JJ PayPal $template->txn_type Transaction: $template->first_name $template->last_name";
-	 	Logger::info("PayPal email being sent to $email");
 	 	mail($email, $subject, $body . "\n\n", $headers );
 	 	
 	 	Logger::info("Emailed Paypal order to $email: $subject");

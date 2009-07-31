@@ -1,6 +1,5 @@
 <?php
  require '../init.php';
- Logger::info("pp_notify from PayPal: 1");
  // Read the post from PayPal and add 'cmd'
  $req = 'cmd=_notify-validate';
  foreach ($_POST as $key => $value) {
@@ -43,7 +42,6 @@
  Logger::info("pp_notify[$txnType] $res");
  
  require DOCPATH.'jewel/process_paypal_order.tran.php';
- Logger::info("pp_notify[$txnType] after include...");
  
  switch ($txnType) {
  	
