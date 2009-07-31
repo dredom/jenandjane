@@ -34,7 +34,7 @@
 	 	 " on file: $filename line: $line symbols: $symbols";
  	if ($error & (E_ERROR | E_PARSE | E_CORE_ERROR | E_COMPILE_ERROR | E_USER_ERROR)) {
  		Logger::factory()->log('FAIL', $msg);
- 		include DOCPATH . 'vw/error.html';
+ 		include DOCPATH . 'error.html';
  		exit;
  	} else if ($error & (E_WARNING | E_CORE_WARNING | E_COMPILE_WARNING | E_USER_WARNING))
  		Logger::factory()->log('WARN', $msg);
