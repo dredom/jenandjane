@@ -33,7 +33,7 @@
  }
  
  <?php /* cart in nav */?>
- <?php if ($is_cart === true) {?>
+ <?php if (Cacher::get('is_cart') === 'true') {?>
    .nav span {
    	font-weight: bold;
    }
