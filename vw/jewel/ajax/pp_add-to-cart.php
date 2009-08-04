@@ -23,5 +23,5 @@
 	<input type="hidden" name="cancel_return" value="<?php echo $continue?>">
 	<input type="hidden" name="return" value="http://www.jenandjane.com/shop/pp_return.php?cf=<?php echo $cf?>">
 	<input type="hidden" name="rm" value="2"><?php /* POST with all params */?>
-	<img alt="" border="0" src="https://www.<?php echo $dev?>paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+	<img alt="" border="0" src="https://www.<?php echo shop_paypal_sandbox?>paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
  </form> 
