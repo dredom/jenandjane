@@ -54,17 +54,7 @@
 				<input id="hide1" type="button" value="CANCEL" class="cancel">
 			</div>
 			<?php include 'pp_add-to-cart.php'?>
-			<div style="clear: both"><b>UNDER CONSTRUCTION:</b> Web site purchasing coming soon!</div>
-			<div>Please call Jane at 818-297-9000 to place an order for this item today.</div>
 		</div>
-		<?php /*
-			Options dropdown in form.
-	[BUY] button with form.
-	<p>Log info, IP, item, price.
-	Return URL from PayPal must log. What? 
-	PayPal confirmation call URL must log confirmation, check price.
-	</p>
-	*/ ?>
 	  </td></tr></table>
 	</div> <?php /* bd */?>
 </div>
