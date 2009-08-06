@@ -1,5 +1,5 @@
 <?php
-class ProductUpdateController extends BaseController {
+class ProductUpdateController extends BaseController2 {
 	public $productDataManager;
 	public $function;
 		
@@ -8,7 +8,7 @@ class ProductUpdateController extends BaseController {
 			case 'updateDescription':
 				$this->updateDescription();
 				break;
-			case 'option':
+			case 'updateOption':
 				$this->updateOption();
 				break;
 		}

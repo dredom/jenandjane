@@ -4,6 +4,9 @@ abstract class BaseController2 {
 	const PAGE = 'page';
 	const AJAX = 'ajax';
 	
+	const ERROR = 'error';
+	const SUCCESS = 'success';
+	
 	private $type;
 	
 	/*
@@ -14,7 +17,7 @@ abstract class BaseController2 {
 	/*
 	 * Status result of handle()
 	 */
-	public $status = 'success';
+	public $status = self::SUCCESS;
 	
 	public $authorized;
 	
@@ -83,6 +86,16 @@ abstract class BaseController2 {
 	 		return null;
 		}
 		return $_GET[$param];
+	}
+	
+	public function isSuccess() {
+		return self::SUCCESS === $this->status;
+	}
+	public function isError() {
+		return self::ERROR === $this->status;
+	}
+	protected function setError() {
+		$this->status = self::ERROR;
 	}
 }
 ?>

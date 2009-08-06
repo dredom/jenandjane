@@ -3,7 +3,6 @@
  * Show jewelry page with pictures and descriptions.
  * 2009-07
  */
- require DOCPATH.'jewel/BaseController2.class.php';
  require DOCPATH.'jewel/JewelShowController.class.php';
  include DOCPATH.'jjadmin/User.php';
  

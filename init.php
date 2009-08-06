@@ -6,7 +6,7 @@
  define('DOCPATH', $site_path.'/');
 
  /*** include the abstract controller class ***/
- require DOCPATH . 'jewel/' . 'BaseController.class.php';
+ require DOCPATH . 'jewel/' . 'BaseController2.class.php';
 
  /*** include the registry class ***/
  require DOCPATH . 'jewel/' . 'Context.class.php';

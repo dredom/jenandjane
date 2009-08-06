@@ -1,5 +1,5 @@
 <?php
-class ProductAddController extends BaseController {
+class ProductAddController extends BaseController2 {
 	public $productDataManager;
 	public $function;
 		

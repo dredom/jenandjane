@@ -1,5 +1,5 @@
 <?php
-class ShoppingController extends BaseController {
+class ShoppingController extends BaseController2 {
 	public $productDataManager;
 	public $function;
 		

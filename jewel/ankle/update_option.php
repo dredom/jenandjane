@@ -9,7 +9,7 @@
  require DOCPATH.'jewel/update_product.tran.php';
 
  $site = 'ankle';
- $function = 'option';
+ $function = 'updateOption';
  $successView = 'jewel/ajax/option';
  
  execTransaction($site, $function, $successView);
