@@ -59,7 +59,7 @@
 The Loft <br>
 1015 Manhattan Avenue <br>
 Manhattan Beach, CA 90266 <br>
-818-297-9000 <br>
+310-372-6119 <br>
 	<br><br>
   </li>
 

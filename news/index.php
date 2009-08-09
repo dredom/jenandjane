@@ -30,6 +30,7 @@
 
 <?php
  define("SITE","news");
+ require '../jewel/Cacher.class.php';
  require('../vw/head/nav.php');
 ?>
 <div id="content" >
