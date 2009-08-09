@@ -34,10 +34,9 @@
 	 	return;
 	 }
 	 
-	 $template = new Template;
-	 if ($controller->status == 'success') {
+	 if ($controller->isSuccess()) {
 	 	header('HTTP/1.0 200 OK', true, 200);
-	 	echo ' controller success ';
+	 	//echo ' controller success ';
 
 	 	$template->show($successView);
 

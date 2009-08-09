@@ -1,5 +1,5 @@
 <?php /* option div - ajax response */
- if ($option != null) {
+ if (isset($option) && ($option != null)) {
 	 $divid = 'optiondiv' . $ix;
 ?>
 	<div id="<?php echo $divid?>">

@@ -37,7 +37,7 @@ class ProductUpdateController extends BaseController2 {
 			Logger::error($e->getMessage());
 			header('HTTP/1.0 500 Server error');
 			echo 'db failed';
-	 		$this->status = 'error';
+	 		$this->setError();
 			return;
 		}
 
@@ -100,7 +100,7 @@ class ProductUpdateController extends BaseController2 {
 			Logger::error($e->getMessage());
 			header('HTTP/1.0 500 Server error');
 			echo 'db failed';
-	 		$this->status = 'error';
+	 		$this->setError();
 			return;
 		}
 
@@ -129,7 +129,7 @@ class ProductUpdateController extends BaseController2 {
 			Logger::error($e->getMessage());
 			header('HTTP/1.0 500 Server error');
 			echo 'db failed';
-	 		$this->status = 'error';
+	 		$this->setError();
 			return;
 		}
 
@@ -142,7 +142,7 @@ class ProductUpdateController extends BaseController2 {
 		if ( $value === null ) {
 			header('HTTP/1.0 400 Bad request');
 	 		echo "missing $param ";
-	 		$this->status = 'error';
+	 		$this->setError();
 		}
 		return $value;
 	}
