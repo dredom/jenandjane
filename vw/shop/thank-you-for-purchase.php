@@ -14,6 +14,7 @@
 
  <span class=heading><?php echo 'Thank you for your purchase!'?></span>
 
+ <p>Paypal will email confirmation of the transaction details to you.
  <br>
  <br>
  <br>
