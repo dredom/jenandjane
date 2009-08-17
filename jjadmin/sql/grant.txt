@@ -1,3 +1,0 @@
-GRANT ALL PRIVILEGES on jjdb.*
-   TO 'jenjane'@'localhost' IDENTIFIED BY 'gem24$'
-   WITH GRANT OPTION;

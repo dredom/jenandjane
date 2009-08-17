@@ -1,4 +1,0 @@
-CREATE TABLE stats (
-	id     VARCHAR(12) NOT NULL PRIMARY KEY,
-	count  INT NOT NULL 
-);
