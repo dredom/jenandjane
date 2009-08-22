@@ -1,6 +1,13 @@
 <?php
-/*
- * Convert images.config to db product rows.
+/**
+ * Read images.config items, read their txt descriptions:
+ * - insert productdata (description)
+ * - insert productoption (price)
+ * 
+ * Dependency:
+ * - register_new_ankle_items.php run first to create product rows
+ * 
+ * @Param $site
  */
 require '../init.php';
 $filename = DOCPATH.'jewel/'.$site.'/images.config';
@@ -10,13 +17,13 @@ include DOCPATH.'mdl/db/Db.class.php';
 $pdo = Db::factory()->getPdo();
 $drv = $pdo->getAttribute(PDO::ATTR_DRIVER_NAME );
 echo $drv . " <br>";
-$sqlget = 'SELECT id
+$sqlSelectProduct = 'SELECT id
 	from product
 	where category = :category
 	  and style = :style
 	  and type = :type
 	  and material = :material; ';
-$stmtget = $pdo->prepare($sqlget);
+$stmtSelectProduct = $pdo->prepare($sqlSelectProduct);
 $sql = 'INSERT into productdata (
 	productid,
 	description,
@@ -26,7 +33,7 @@ $sql = 'INSERT into productdata (
 	:description,
 	now()
 	); ';
-$stmt = $pdo->prepare($sql);
+$stmtInsertProductdata = $pdo->prepare($sql);
 $sqlpo = 'INSERT into productoption (
 	productid,
 	price,
@@ -36,7 +43,7 @@ $sqlpo = 'INSERT into productoption (
 	:price,
 	now()
 	); ';
-$stmtpo = $pdo->prepare($sqlpo);
+$stmtInsertPo = $pdo->prepare($sqlpo);
 $count = 0;
 $countPrice = 0;
 foreach ($lines as $line) {
@@ -51,7 +58,7 @@ foreach ($lines as $line) {
 		$id = null;
 	}
     
-    $product = makeProduct($item);
+//  $product = makeProduct($item);
 //	try {
 //		$id = getProductId($product);
 //	} catch (PDOException $e) {
@@ -77,7 +84,12 @@ foreach ($lines as $line) {
 echo "Inserted $count productdata rows. \n";
 echo "Inserted $countPrice productoption rows. \n";
 
-
+/**
+ * Not referenced, but this is the code to split up product code.
+ * Split product code into field values
+ * @param $productcode
+ * @return Product
+ */
 function makeProduct($productcode) {
 	$product = new Product();
  	$product->category = substr($productcode, 0, 1);
@@ -89,16 +101,21 @@ function makeProduct($productcode) {
 	return $product;
 }
 
+/**
+ * Not referenced.
+ * @param $product
+ * @return unknown_type
+ */
 function getProductId($product) {
-	global $stmtget;
-	$stmtget->bindParam(':category', $product->category, PDO::PARAM_STR);
-	$stmtget->bindParam(':style', $product->style, PDO::PARAM_INT);
-	$stmtget->bindParam(':type', $product->type, PDO::PARAM_STR);
-	$stmtget->bindParam(':material', $product->material, PDO::PARAM_STR);
-	$success = $stmtget->execute();
+	global $stmtSelectProduct;
+	$stmtSelectProduct->bindParam(':category', $product->category, PDO::PARAM_STR);
+	$stmtSelectProduct->bindParam(':style', $product->style, PDO::PARAM_INT);
+	$stmtSelectProduct->bindParam(':type', $product->type, PDO::PARAM_STR);
+	$stmtSelectProduct->bindParam(':material', $product->material, PDO::PARAM_STR);
+	$success = $stmtSelectProduct->execute();
 	if ($success) {
-		$result = $stmtget->fetchColumn();
-		$stmtget->closeCursor();
+		$result = $stmtSelectProduct->fetchColumn();
+		$stmtSelectProduct->closeCursor();
 		return $result;
 	} else {
          echo "Get product failed on $product->category : $product->style - $product->type - $product->material \n";
@@ -149,13 +166,11 @@ function separatePriceAndDescription($description) {
 function insertDescription($productId, $description) {
 	if ($description == null || $description == '')
 		return;
-	global $stmt, $count;
-	echo " binding ";
-	$stmt->bindParam(':productid', $productId, PDO::PARAM_INT);
-	$stmt->bindParam(':description', $description, PDO::PARAM_STR);
-	echo " bound. ";
-	$success = $stmt->execute();
-	echo " executed $success ";
+	global $stmtInsertProductdata, $count;
+	$stmtInsertProductdata->bindParam(':productid', $productId, PDO::PARAM_INT);
+	$stmtInsertProductdata->bindParam(':description', $description, PDO::PARAM_STR);
+	$success = $stmtInsertProductdata->execute();
+	echo " inserted productdata for $productId $success <br>\n";
 	if ($success) {
 		$count++;
 	} else {
@@ -166,10 +181,10 @@ function insertDescription($productId, $description) {
 function insertPrice($productId, $price) {
 	if ($price == null)
 		return;
-	global $stmtpo, $countPrice;
-	$stmtpo->bindParam(':productid', $productId, PDO::PARAM_INT);
-	$stmtpo->bindParam(':price',     $price);
-	$success = $stmtpo->execute();
+	global $stmtInsertPo, $countPrice;
+	$stmtInsertPo->bindParam(':productid', $productId, PDO::PARAM_INT);
+	$stmtInsertPo->bindParam(':price',     $price);
+	$success = $stmtInsertPo->execute();
 	if ($success) {
 		$countPrice++;
 	} else {

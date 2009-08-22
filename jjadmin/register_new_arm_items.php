@@ -3,11 +3,11 @@
  * Convert images.config to db product rows.
  */
 require '../init.php';
-require DOCPATH.'jewel/ConfigToProduct.class.php';
+require DOCPATH.'jjadmin/ConfigToProduct.class.php';
 $filename = 'jewel/arm/images.config';
 echo "Start for $filename...<br>\n";
 $configToProduct = new ConfigToProduct;
 $count = $configToProduct->load($filename);
-Logger::info("Registering items for $filename, $count inserts");
+Logger::info("Registered product items for $filename, $count inserts");
 echo "\n Done ~ $count inserts \n";
 ?>

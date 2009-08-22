@@ -4,18 +4,25 @@
 // Controller for bracelets.
  
  require '../../init.php';
- require '../showCommon.php';
- 
- $title = 'bracelets';
- 
- define('SITE', 'arm');
- define('IMAGE_CONFIG', DOCPATH.'jewel/arm/images.config');
- define('TEXTPATH', DOCPATH.'img/');
- 
- $pics = loadPics(SITE);
- $show = loadShow(SITE, $pics);
+ require DOCPATH.'jewel/show_page.tran.php';
 
- // Render the view
- require '../../vw/showCommon.php';
+ $site = 'arm';
+ $function = 'show';
  
- ?>
+ execTransaction($site, $function);
+
+ // require '../showCommon.php';
+// 
+// $title = 'bracelets';
+// 
+// define('SITE', 'arm');
+// define('IMAGE_CONFIG', DOCPATH.'jewel/arm/images.config');
+// define('TEXTPATH', DOCPATH.'img/');
+// 
+// $pics = loadPics(SITE);
+// $show = loadShow(SITE, $pics);
+//
+// // Render the view
+// require '../../vw/showCommon.php';
+ 
+?>

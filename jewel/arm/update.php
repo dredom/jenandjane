@@ -1,21 +1,16 @@
 <?php
-/*
+/**
  * update.php
- * Bracelets.
- * Updates item text file - ajax call.
- * Created on Nov 23, 2008
+ * Update product description - ajax call.
+ * Created on 2009-08
  */
  require '../../init.php';
- require '../showCommon.php';
- require '../updateCommon.php';
-
- checkAuthorized();
+ require DOCPATH.'jewel/update_product.tran.php';
  
- define('SITE', 'arm');
- define('TEXTPATH', DOCPATH.'img/');
+ $site = 'arm';
+ $function = 'updateDescription';
+ $successView = 'ok';
  
- updateText('b');
+ execTransaction($site, $function, $successView);
  
- // Clear cached pics
- clearPicsSession(SITE);
 ?>
