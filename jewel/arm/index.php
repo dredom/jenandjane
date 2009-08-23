@@ -1,8 +1,9 @@
 <?php
-// Creates a show of images for BRACELETS
-// and renders it.
-// Controller for bracelets.
- 
+/**
+ * Creates a show of images for BRACELETS and renders it.
+ * Router for bracelets view.
+ * 2008-08
+ */
  require '../../init.php';
  require DOCPATH.'jewel/show_page.tran.php';
 

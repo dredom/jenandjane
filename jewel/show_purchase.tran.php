@@ -4,15 +4,16 @@
  * Ajax.
  * 2009-03
  */
- require DOCPATH.'jewel/ProductController.class.php';
  require DOCPATH.'jewel/DbManager.class.php';
  require DOCPATH.'jewel/ProductDataManager.class.php';
+ require DOCPATH.'jewel/ProductController.class.php';
  
  function execTransaction($site, $function) {
+	//Cacher::set('is_cart', 'true');
  	
  	//echo ' start_tran ';
 	 try {
-		 $controller = new ProductController();
+		 $controller = new ProductController(BaseController2::AJAX);
 		 $controller->site = $site;
 		 $controller->function = $function;
 		 $controller->productDataManager = new ProductDataManager();
@@ -26,15 +27,20 @@
 	 	return;
 	 }
 	 
-	 if ($controller->status == 'success') {
+	 //echo ' after handle ';
+	 
+	 if ($controller->isSuccess()) {
+	 	Cacher::set('is_cart', 'true');
 	 	header('HTTP/1.0 200 OK', true, 200);
  	
+	 	
 	 	$template->show('jewel/ajax/purchase-overlay');
 	 	
 	 } else {
+	 	header('HTTP/1.0 400 Bad Request');
 	 	echo ' error ';
 	 	return;
 	 }
-	
+
  } 
 ?>
