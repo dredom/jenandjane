@@ -7,7 +7,7 @@
  require '../../init.php';
  require DOCPATH.'jewel/show_page.tran.php';
 
- $site = 'arm';
+ $site = 'ear';
  $function = 'show';
  
  execTransaction($site, $function);

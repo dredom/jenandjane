@@ -1,6 +1,7 @@
 
 Database:
-- Backups to /bkup/websites/dbdata
+- Prod backups with myPhpAdmin: file name template %Y%m%d%H%M%S-__DB__
+- Prod Backups to /bkup/websites/dbdata
 - Test backups to /bkup/websites/dbdata/test
 
 Production Database Backups:
