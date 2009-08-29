@@ -46,7 +46,7 @@
 
   <br/> or email <a href="mailto:jane@jenandjane.com?subject=jen + jane website special n304-chg-ss&body=Order description: The Jessica%0AOrder item: n304-chg-ss%0A%0AMy name is: %0A%0AMy phone number is: %0A%0ATimes to call me: " 
   		>jane@jenandjane.com</a>
-  <br/> or call 714/496-0960
+  <br/> or call 818-297-9000
  </p>
   <br><br>
  <?php require('../vw/foot/footer.php'); ?>
