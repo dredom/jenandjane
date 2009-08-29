@@ -1,21 +1,16 @@
 <?php
-/*
+/**
  * update.php
- * Necklaces.
- * Updates item text file - ajax call.
- * Created on Nov 23, 2008
+ * Update product description - ajax call.
+ * Created on 2009-08
  */
  require '../../init.php';
- require '../showCommon.php';
- require '../updateCommon.php';
-
- checkAuthorized();
+ require DOCPATH.'jewel/update_product.tran.php';
  
- define('SITE', 'neck');
- define('TEXTPATH', DOCPATH.'img/');
+ $site = 'neck';
+ $function = 'updateDescription';
+ $successView = 'ok';
  
- updateText('n');
+ execTransaction($site, $function, $successView);
  
- // Clear cached pics
- clearPicsSession(SITE);
 ?>
