@@ -1,21 +1,9 @@
 <?php
 abstract class DbManager {
 
-	/*
-	 * work stuff
-	 */
-	protected $context;
-
 	private static $pdo;
 	
 	private $sqlStmts = array();
-
-	function __construct($context = null) {
-		if (!$context) {
-			$context = new Context();
-		}
-		$this->context = $context;
-	}
 
 	/**
 	 * PHP Data Objects - database abstraction

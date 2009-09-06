@@ -46,24 +46,31 @@ class ShowDataManager extends DbManager {
 	 * @return unknown_type
 	 */
 	public function getShowItems($imagesConfig) {
-		$lines = file($imagesConfig);
+//		$lines = file($imagesConfig);
 		$items = array();
-	    foreach ($lines as $line) {
-	    	$i = strpos($line, ' ');
-			if ($i) {
-				$code = substr($line, 0, $i);
-				$id = (int) substr($line, $i);
-			} else {
-				$code = trim($line);
-				$id = null;
-			}
-	    	
+		include 'show.config.php';	// $config
+		foreach ($config as $id => $code) {
 	      	$item = new Item($id, $code);
 	      	$item->imageSmallUrl = self::IMG_URL.$code.'-sml.jpg';
 	      	$item->imageLargeUrl = self::IMG_URL.$code.'-lrg.jpg';
-	      	
-	      	$items[] = $item;
-	    }
+	      	$items[] = $item;	// add
+		}
+//	    foreach ($lines as $line) {
+//	    	$i = strpos($line, ' ');
+//			if ($i) {
+//				$code = substr($line, 0, $i);
+//				$id = (int) substr($line, $i);
+//			} else {
+//				$code = trim($line);
+//				$id = null;
+//			}
+//	    	
+//	      	$item = new Item($id, $code);
+//	      	$item->imageSmallUrl = self::IMG_URL.$code.'-sml.jpg';
+//	      	$item->imageLargeUrl = self::IMG_URL.$code.'-lrg.jpg';
+//	      	
+//	      	$items[] = $item;
+//	    }
 	    reset($items);         // start
 	    return $items;
 	}

@@ -5,32 +5,41 @@
  *
  */
   $debug = true;
- define(TESTPATH, "../..");
- include TESTPATH . '/jjadmin/config.php';
- include DOCPATH . '/jjadmin/Logger.php';
- $log = Logger::factory();
+ include '../../init.php';
  
- include DOCPATH . '/db/Db.php';
+ include DOCPATH . 'mdl/db/Db.class.php';
  $dbm = Db::factory();
- echo $dbm->db . "\n";
+ $pdo = $dbm->getPdo();
  
 // 		$dbm->query("insert into stats values ('" . $id . "', 0);");
 // 		if (!results)
 //	 		print mysql_error() . "\n";
  
- $q = "select * from stats;";
- $results = $dbm->query($q);
- echo 'results=' . $results . "\n";
+ $q = "select * from product where id = 2;";
+ $results = $pdo->query($q);
+ //echo 'results=' . $results . "\n";
  if (!$results) {
- 	echo "db error " . $dbm->error . " <br>\n";
+ 	echo "db error " . $pdo->errorCode() . " <br>\n";
  	trigger_error(mysql_error(), E_USER_ERROR);
  	exit;
  }
- while ($row = mysql_fetch_object($results)) {
-	 echo ' id=' . $row->id . " count=" . $row->count . " \n";
+// while ($row = mysql_fetch_object($results)) {
+//	 echo ' id=' . $row->id . " count=" . $row->count . " \n";
+// }
+ echo count($results)." rows \n";
+ var_dump($results);
+ $first = $results->fetch();
+ var_dump($first);
+ foreach ($results as $row) {
+ 	if ($row === null) {
+ 		echo " row is null \n";
+ 	}
+ 	if (!isset($row)) {
+ 		echo " row is not set \n";
+ 	}
+ 	echo " >".$row."< \n";
+ 	var_dump($row);
  }
- echo "factory#2 \n";
- $dbn = Db::factory();
- print $dbn->db;
- echo 'last line \n';
+
+ echo " ~ \n";
 ?>

@@ -18,6 +18,8 @@ test('insertProductOption');
 test('getProductOption');
 test('getProductOptionNotFound');
 test('getItem');
+test('getProduct');
+test('getProductNotFound');
 //test('temp');
 
 function temp() {
@@ -30,6 +32,22 @@ function temp() {
 	$stmt->bindParam(':option', $option);
 	$success = $stmt->execute();
 	echo " $success \n";
+}
+function getProduct() {
+	$code = 'b300-shl-ss';
+	$mgr = new ProductDataManager;
+	$product = $mgr->getProductByCode($code);
+	assert('$product->id !== null');
+}
+function getProductNotFound() {
+	$code = 'b300-xxx-yy';
+	$mgr = new ProductDataManager;
+	try {
+		$product = $mgr->getProductByCode($code);
+		assert('$product === true');
+	} catch (Exception $e) {
+		// expected
+	}
 }
 function updatePrice() {
 	$id = 116;

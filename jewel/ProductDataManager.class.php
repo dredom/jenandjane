@@ -6,6 +6,14 @@
 class ProductDataManager extends DbManager {
 	const VERSION = '1';
 
+	const SQL_SELECT_PRODUCT_BY_CODE = 'sqlprod1';
+	const sqlprod1 = 'SELECT id, category, style, type, material
+		from product
+		where category = :category
+		  and style    = :style
+		  and type     = :type
+		  and material = :material; ';
+	
 	// productdata
 	
 	const SQL_SELECT_PRODUCTDATA = 'sql1'; 
@@ -87,7 +95,35 @@ class ProductDataManager extends DbManager {
     	     ON pd.productid = pc.id
  		  WHERE pc.id        = :productid ;';
 	
-	
+	/**
+	 * @param $productcode
+	 * @return Product
+	 */
+	public function getProductByCode($productcode) {
+	 	$category = substr($productcode, 0, 1);
+	 	$i = strpos($productcode, '-', 1) + 1;
+	 	$style = substr($productcode, 1, $i - 2);
+	 	$j = strpos($productcode, '-', $i) + 1;
+	 	$type = substr($productcode, $i, $j - 1 - $i);
+	 	$material = substr($productcode, $j);
+		$stmt = $this->getSqlStatement(self::SQL_SELECT_PRODUCT_BY_CODE);
+		$stmt->bindParam(':category', $category, PDO::PARAM_STR);
+		$stmt->bindParam(':style',    $style, PDO::PARAM_STR);
+		$stmt->bindParam(':type',     $type, PDO::PARAM_STR);
+		$stmt->bindParam(':material', $material, PDO::PARAM_STR);
+		$success = $stmt->execute();
+		if (!$success) {
+			$msg = $stmt->errorInfo();
+			throw new Exception("Select product[$productcode] failed: $msg", $stmt->errorCode());
+		}
+		$product = $stmt->fetchObject('Product');
+		if (!$product) {
+			throw new Exception("Product[$productcode] not found");
+		}
+		$stmt->closeCursor();
+		return $product;
+	}
+
 	public function updateDescription(ProductData $data) {
 		// Exist?
 		$stmt = $this->getSqlStatement(self::SQL_SELECT_PRODUCTDATA);
@@ -166,7 +202,12 @@ class ProductDataManager extends DbManager {
 			throw new Exception("Get productoptions failed: $msg", $stmt->errorCode());
 		}
 	}
-	
+
+	/**
+	 * @param $productid
+	 * @param $seq
+	 * @return ProductOption
+	 */
 	public function getProductOption($productid, $seq) {
 		//$stmt = $this->getStmtSelectProductOption();
 		$stmt = $this->getSqlStatement(self::SQL_SELECT_PRODUCTOPTION);
@@ -248,6 +289,10 @@ class ProductDataManager extends DbManager {
 		}
 	}
 
+	/**
+	 * @param $id
+	 * @return ItemView
+	 */
 	public function getItem($id) {
 		$stmt = $this->getSqlStatement(self::SQL_SELECT_PRODUCT_DESCRIPTION);
 		$stmt->bindParam(':productid', $id, PDO::PARAM_INT);
