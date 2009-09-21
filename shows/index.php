@@ -63,6 +63,10 @@
     <ul>
      <li>Designer in store every Thursday <br/>
      </li>
+     <li><b>Summer's End Sale</b> <br>
+     20% - 50% off! <br>
+     September 20th - 30th
+     </li>
     </ul>
    </div>
   </div> <!-- location -->
@@ -100,8 +104,7 @@
    </div>
    <div class="when">
     <ul>
-     <li>August 19th - 21st <br>
-     Wednesday - Friday 10 am - 3 pm
+     <li>(Pending) <br>
      </li>
     </ul>
    </div>
@@ -145,14 +148,7 @@
    </div>
    <div class="when">
     <ul>
-     <li>August 7 - 8  <br>
-     Friday & Saturday 11 am - 5 pm
-     </li>
-     <li>August 14  <br>
-     Friday  11 am - 5 pm
-     </li>
-     <li>August 21 - 22  <br>
-     Friday & Saturday 11 am - 5 pm
+     <li>(Pending)  <br>
      </li>
 
     </ul>
@@ -173,7 +169,8 @@
    </div>
    <div class="when">
     <ul>
-     <li>(Pending)<br>
+     <li>Sep 26<sup>th</sup><br>
+     Saturday 10 am - 3 pm
      </li>
     </ul>
    </div>
@@ -193,14 +190,7 @@
    </div>
    <div class="when">
     <ul>
-     <li>August 9th <br>
-     Sunday 11 am - 5 pm
-     </li>
-     <li>August 15 - 16 <br>
-     Saturday & Sunday 11 am - 5 pm
-     </li>
-     <li>August 29th <br>
-     Sunday 11 am - 5 pm
+     <li>(Pending) <br>
      </li>
     </ul>
    </div>
