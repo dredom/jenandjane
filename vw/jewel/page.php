@@ -69,6 +69,10 @@
  	margin-right: 1em;
  	font-size: smaller;
  }
+ .purchaseButton {
+ 	color: #900000; 
+ 	background-color: #FFCCFF;
+ } 
  .cancel {
  	color: #808080; 
  	background-color: #D3D3D3;

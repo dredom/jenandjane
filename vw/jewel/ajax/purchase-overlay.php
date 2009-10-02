@@ -39,10 +39,9 @@
 					</div>
 				
 					<div class="left">
-						<a href="javaScript:addToCart(<?php echo $item->id?>,<?php echo $option->seq?>,'<?php echo $option->optiontype?>','<?php echo urlencode($option->value)?>',<?php echo $option->price?>,<?php echo $optionShipping[$option->seq]?>);"
-							title="PayPal - The safer, easier way to pay online"> 
-							purchase
-						</a>
+						<input type="button" value="PURCHASE" class="purchaseButton"
+							onClick="addToCart(<?php echo $item->id?>,<?php echo $option->seq?>,'<?php echo $option->optiontype?>','<?php echo urlencode($option->value)?>',<?php echo $option->price?>,<?php echo $optionShipping[$option->seq]?>);"
+							title="PayPal - The safer, easier way to pay online"/> 
 					</div>
 			
 				  </div>
