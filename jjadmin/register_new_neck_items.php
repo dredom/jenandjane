@@ -1,10 +1,10 @@
 <?php
 /*
- * Convert images.config to db product rows.
+ * Convert new show.config to db product rows.
  */
 require '../init.php';
 require DOCPATH.'jjadmin/ConfigToProduct.class.php';
-$filename = 'jewel/neck/images.config';
+$filename = 'jewel/neck/show.config';
 echo "Start for $filename...<br>\n";
 $configToProduct = new ConfigToProduct;
 $count = $configToProduct->load($filename);

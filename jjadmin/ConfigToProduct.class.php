@@ -2,11 +2,13 @@
 /**
  * Read items from a config file, create db product row if item has no id,
  * and create new config file with the id.
- * 
+ *
  * Run this after adding new items to config file, then edit descriptions online.
- * 
+ *
  * 2009-01
+ * 2009-10 Do not write out new config file, just insert to db.
  * @See register_new_ankle_items.php
+ * @See generate_config.php
  */
 class ConfigToProduct {
 	private static $sqlinsert = 'INSERT into product (
@@ -21,7 +23,7 @@ class ConfigToProduct {
 		:material
 	); ';
 	private $stmtinsert;
-	
+
 	private static $sqlselect = 'SELECT id
 		from product
 		where category = :category
@@ -29,11 +31,11 @@ class ConfigToProduct {
 		  and type = :type
 		  and material = :material; ';
 	private $stmtselect;
-	
+
 	private $pdo;
 
 	private $file;
-	
+
 	public function load($file) {
 		$filepath = DOCPATH.$file;
 		echo "Start of registering new items in db for $filepath...<br>\n";
@@ -48,11 +50,11 @@ class ConfigToProduct {
 			$newconfig = '';
 			foreach ($lines as $line) {
 				$data = $this->doLine($line);
-				if ($data != null) {
-					$newconfig .= $data->item . ' ' . $data->id . "\r\n";
-				}
+//				if ($data != null) {
+//					$newconfig .= $data->item . ' ' . $data->id . "\r\n";
+//				}
 				if ($data->change) {
-					$filechange = true;
+//					$filechange = true;
 					if ($data->insert) {
 						$count++;
 					}
@@ -60,46 +62,46 @@ class ConfigToProduct {
 			}
 			echo "<br>\n";
 			// Create updated config file?
-			if ($filechange) {
-				$newfile = $filepath.'.new';
-				if (file_exists($newfile)) {
-					unlink($newfile);
-				}
-				//echo $newconfig;
-				$bytes = file_put_contents($newfile, $newconfig);
-				// Rename
-				$savefile = $filepath.'.old';
-				if (file_exists($savefile)) {
-					unlink($savefile);
-				}
-				echo "Saving old config as $savefile <br>\n";
-				rename($filepath, $savefile);
-				echo "Updating config $filepath <br>\n";
-				rename($newfile, $filepath);
-			}
+//			if ($filechange) {
+//				$newfile = $filepath.'.new';
+//				if (file_exists($newfile)) {
+//					unlink($newfile);
+//				}
+//				//echo $newconfig;
+//				$bytes = file_put_contents($newfile, $newconfig);
+//				// Rename
+//				$savefile = $filepath.'.old';
+//				if (file_exists($savefile)) {
+//					unlink($savefile);
+//				}
+//				echo "Saving old config as $savefile <br>\n";
+//				rename($filepath, $savefile);
+//				echo "Updating config $filepath <br>\n";
+//				rename($newfile, $filepath);
+//			}
 			return $count;
-			
+
 		} catch (PDOException $e) {
 			echo " DB failure: $e <br>\n";
 			Logger::error('ConfigToProduct: '.$e->getMessage());
 		}
 	}
-	
+
 	private function doLine($line) {
 	   	$line = trim($line);
 	    echo " [$line] ";
-	    
+
 	    // Get item, id from line
-	    
+
 		$data = $this->getLineItem($line);
 		$data->change = false;
 		$data->insert = false;
-		// If already has id, return   
-		if ($data->id) 
+		// If already has id, return
+		if ($data->id)
 			return $data;
-			 
+
 		$data->change = true;
-		
+
 		// Check if item exists in db
 	    $product = $this->makeProduct($data->item);
 		$id = $this->getProductId($product);
@@ -121,7 +123,7 @@ class ConfigToProduct {
 		return null;
 	}
 
-	/* Split line into <item> <id> where <id> is optional 
+	/* Split line into <item> <id> where <id> is optional
 	 * @return Context */
 	private function getLineItem($line) {
 	   	$data = new Context;
@@ -136,7 +138,7 @@ class ConfigToProduct {
 		}
 		return $data;
 	}
-	
+
 	/*
 	 * Build a Product object from the product code.
 	 * @return Product object
@@ -151,7 +153,7 @@ class ConfigToProduct {
 	 	$product->material = substr($productcode, $j);
 		return $product;
 	}
-	
+
 	/*
 	 * Find the product in the db and return its id, or null.
 	 */
@@ -169,7 +171,7 @@ class ConfigToProduct {
 		}
 	    return null;
 	}
-	
+
 	private function insertProductRow(&$product) {
 		$stmt = $this->getStmtInsert($this->pdo);
 		$stmt->bindParam(':category', $product->category, PDO::PARAM_STR);
@@ -177,11 +179,11 @@ class ConfigToProduct {
 		$stmt->bindParam(':type', $product->type, PDO::PARAM_STR);
 		$stmt->bindParam(':material', $product->material, PDO::PARAM_STR);
 		$success = $stmt->execute();
-		
+
 		if ($success) {
 			$product->id = $this->pdo->lastInsertId();
 			return $product;
-		} 
+		}
          echo "Insert failed on $product->category : $product->style - $product->type - $product->material \n";
          return null;
 	}
@@ -189,15 +191,15 @@ class ConfigToProduct {
 		if (!$this->stmtinsert) {
 			$this->stmtinsert = $pdo->prepare(self::$sqlinsert);
 		}
-		return $this->stmtinsert;		
+		return $this->stmtinsert;
 	}
-		
+
 	private function getStmtSelect($pdo) {
 		if (!$this->stmtselect) {
 			$this->stmtselect = $pdo->prepare(self::$sqlselect);
 		}
-		return $this->stmtselect;		
+		return $this->stmtselect;
 	}
-	
+
 }
 ?>

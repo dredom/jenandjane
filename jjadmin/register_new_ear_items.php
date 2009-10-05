@@ -4,7 +4,7 @@
  */
 require '../init.php';
 require DOCPATH.'jjadmin/ConfigToProduct.class.php';
-$filename = 'jewel/ear/images.config';
+$filename = 'jewel/ear/show.config';
 echo "Start for $filename...<br>\n";
 $configToProduct = new ConfigToProduct;
 $count = $configToProduct->load($filename);
