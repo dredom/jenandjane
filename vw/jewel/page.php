@@ -1,10 +1,10 @@
 <html>
 <head><title>Jen + Jane - <?php echo $title?></title>
- <meta name="description" content="Jen and Jane - Gems, Jewels and Designs by Jane Rietman, featuring original designs in semi-precious stones, gold and silver." />
- <meta name="keywords" content="jewelry, designer, Jen, Jane, <?php echo $site?>, semi precious, gold, silver, chain" />
+ <meta name="description" content="Jen and Jane - Gems, Jewels and Designs by Jane Rietman, featuring original designs in pearls, semi-precious stones, gold and silver." />
+ <meta name="keywords" content="designer jewelry, Jen + Jane, pearl <?php echo $title?>, semi precious stone <?php echo $title?>, gold <?php echo $title?>, silver <?php echo $title?>" />
 
  <link rel=StyleSheet href="/css/style.css" type="text/css">
- 
+
 <!-- Combo-handled YUI CSS files: -->
 <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/combo?2.7.0/build/base/base-min.css&2.7.0/build/container/assets/skins/sam/container.css">
 <!-- Combo-handled YUI JS files: -->
@@ -25,20 +25,20 @@
   	margin-right: 1em;
   }
  .txt-hilite div {
- 	background-color: firebrick;	
+ 	background-color: firebrick;
  }
- 
+
  .options li {	<?php /* TODO each optiondiv */ ?>
  	clear: both;
  }
- 
+
  <?php /* cart in nav */?>
  <?php if (Cacher::get('is_cart') === 'true') {?>
    .nav span {
    	font-weight: bold;
    }
  <?php }?>
- 
+
  #image-ajax .yui-panel .overly {
  	border: thin solid #696969;
  }
@@ -64,17 +64,17 @@
  	padding: 0;
  }
  .purchase {
- 	clear:both; 
- 	float:right; 
+ 	clear:both;
+ 	float:right;
  	margin-right: 1em;
  	font-size: smaller;
  }
  .purchaseButton {
- 	color: #900000; 
+ 	color: #900000;
  	background-color: #FFCCFF;
- } 
+ }
  .cancel {
- 	color: #808080; 
+ 	color: #808080;
  	background-color: #D3D3D3;
  }
  </style>
@@ -82,7 +82,7 @@
 
 <body  class="yui-skin-sam" leftmargin=0 topmargin=0 marginheight=0 marginwidth=0>
  <div id="page">
-  
+
  <br>
  <?php require DOCPATH.'vw/head/logo.php'; ?>
  <br>

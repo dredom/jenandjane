@@ -1,7 +1,7 @@
 <html>
 <head><title>Jen + Jane - Locations</title>
  <meta name="description" content="Gems, Jewels and Designs by Jen and Jane, featuring original designs for bracelets in semi-precious stones, gold and silver." />
- <meta name="keywords" content="jewelry, designer, Jen, Jane, published, news, semi precious, gold, silver" />
+ <meta name="keywords" content="designer jewelry, Jen + Jane, locations, semi precious, gold, silver" />
  <link rel=StyleSheet href="/css/style.css" type="text/css">
  <style type="text/css">
 <!--
@@ -15,7 +15,7 @@
  <tr>
   <td  width=110px>&nbsp;</td>
   <td>  <!-- big <td> -->
-  
+
  <br>
  <?php require '../jewel/Cacher.class.php';?>
  <?php require('../vw/head/logo.php'); ?>
@@ -42,6 +42,8 @@
   <br>
   Studio City,  CA 91604
   <br>
+  <small>(<a href="http://maps.google.com/maps?q=POMM&near=4330+Tujunga+Ave,+Studio+City,+Los+Angeles,+California+91604">map</a>)</small>
+  <br>
   818-752-7521
   </big>
   <div align="center" style="margin-top: 5px">
@@ -49,21 +51,43 @@
  <img src="http://www.jenandjane.com/img/pommstore1.jpg" border="0" alt="POMM store">
 </div>
   </div>
-  
+
 	<br><br>
  </li>
 
+ <li><span>Bakersfield, CA:</span>
+   <br><br>
+LoLo's <br>
+5003 Stockdale Highway <br>
+Bakersfield, CA 93309 <br>
+  <small>(<a href="http://maps.google.com/maps?q=LoLo&near=5003+Stockdale+Hwy,+Bakersfield,+Kern,+California+93309">map</a>)</small>
+  <br>
+661-835-5656 <br>
+   <br><br>
+  </li>
 
  <li><span>Manhattan Beach, CA:</span>
 	<br><br>
 The Loft <br>
-1015 Manhattan Avenue <br>
+1015 N Manhattan Avenue <br>
 Manhattan Beach, CA 90266 <br>
+  <small>(<a href="http://maps.google.com/maps?q=The+Loft+Salon&near=1015+N+Manhattan+Ave,Manhattan+Beach,CA+90266">map</a>)</small>
+  <br>
 310-372-6119 <br>
 	<br><br>
   </li>
 
- <li><span>Laguna Beach, CA:</span> 
+ <li><span>Irvine, CA:</span>
+	<br><br>
+Calispia<br>
+University Plaza Shopping Center <br>
+Campus Drive <br>
+Irvine, CA 92612 <br>
+818-297-9000 <br>
+	<br><br>
+  </li>
+
+ <li><span>Laguna Beach, CA:</span>
 	<br><br>
 The Montage Resort &amp; Spa <br>
 Treasures <br>
@@ -78,6 +102,8 @@ Laguna Beach, CA 92651 <br>
 Trompe L’Oeil <br>
 413 29th Street <br>
 Newport Beach, CA 92663 <br>
+  <small>(<a href="http://maps.google.com/maps?q=Trompe+L%E2%80%99Oeil&near=413+29th+St,+Newport+Beach,+CA+92663">map</a>)</small>
+  <br>
 949-675-2024 <br>
 	<br><br>
  </li>

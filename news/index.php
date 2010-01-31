@@ -21,7 +21,7 @@
  <tr>
   <td  width=110px>&nbsp;</td>
   <td>  <!-- big <td> -->
-  
+
  <br>
  <?php require('../vw/head/logo.php'); ?>
  <br>
@@ -37,7 +37,17 @@
  <br>
  <div id="news-item">
   <ul>
-   <li>August 2007 &ndash; A jen+jane necklace adorned model Nicole Sion 
+   <li>January 2010 &ndash; LoLo's of Bakersfield carries the jen+jane line of jewelry. 661-835-5656<br>
+   <img src="http://people.bakersfield.com/file/picture/319851/1/0/" alt="LoLo's" title="LoLo's Store"/>
+   <br>5003 Stockdale Hwy, Bakersfield CA 93309
+   <a href="http://people.bakersfield.com/home/Business/Lolos/View_Map">
+   <span style="font-size:x-small">map</span></a>
+   </li>
+  </ul>
+ </div>
+ <div id="news-item">
+  <ul>
+   <li>August 2007 &ndash; A jen+jane necklace adorned model Nicole Sion
    in <i>Esquire Magazine's</i> Turkey edition.
    <img src="/img/news-esquire-turkey.jpg" alt="Esquire Magazine" title="Esquire Magazine"/>
    <br> <span style="font-size:x-small">Photography by Lucida</span>
@@ -49,7 +59,7 @@
    <li> &ndash; jen+jane's keshi pearl earrings were featured
    in <i>InStyle Magazine</i>.
    <br>
-   
+
    <span style="float:left; vertical-align:top; width:260px">
     <img src="/img/instyle1.jpg" alt="InStyle Magazine" title="InStyle Magazine" />
     <br>&nbsp; Featuring keshi pearl earrings on 14k gold chains
@@ -59,8 +69,8 @@
    </li>
   </ul>
  </div>
- 
-</div> <!-- content -->  
+
+</div> <!-- content -->
 
 <br>
 <?php require('../vw/foot/footer.php'); ?>

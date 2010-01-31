@@ -61,12 +61,11 @@
    </div>
    <div class="when">
     <ul>
-     <li>Designer in store every Thursday <br/>
+     <li><i>Our Valentine's Event!</i> <br>
+     February 12th <br>
+     Friday noon - 9 pm <br>
      </li>
-     <li><b>Summer's End Sale</b> <br>
-     20% - 50% off! <br>
-     September 20th - 30th
-     </li>
+
     </ul>
    </div>
   </div> <!-- location -->
@@ -84,7 +83,9 @@
    </div>
    <div class="when">
     <ul>
-     <li>(Pending)
+     <li><i>Valentine's Show</i> <br>
+     February 11th <br>
+     Thursday 10 am - 7 pm <br>
      </li>
     </ul>
    </div>
@@ -104,7 +105,7 @@
    </div>
    <div class="when">
     <ul>
-     <li>(Pending) <br>
+     <li>(Pending Valentine's show)
      </li>
     </ul>
    </div>
@@ -127,13 +128,12 @@
    </div>
    <div class="when">
     <ul>
-     <li>(Pending) <br>
+     <li>(Pending)
      </li>
     </ul>
    </div>
   </div> <!-- location -->
  </div> <!-- area -->
-
 
  <div class="area">
   <b> Stevenson Ranch</b>
@@ -148,7 +148,11 @@
    </div>
    <div class="when">
     <ul>
-     <li>(Pending)  <br>
+     <li>February 6th<br>
+     Saturday 11 am - 4 pm
+     </li>
+     <li>February 20th <br>
+     Saturday 11 am - 4 pm
      </li>
 
     </ul>
@@ -169,8 +173,7 @@
    </div>
    <div class="when">
     <ul>
-     <li>Sep 26<sup>th</sup><br>
-     Saturday 10 am - 3 pm
+     <li>(Pending)
      </li>
     </ul>
    </div>
@@ -190,7 +193,11 @@
    </div>
    <div class="when">
     <ul>
-     <li>(Pending) <br>
+     <li>February 13th <br>
+     Saturday 11 am - 4 pm
+     </li>
+     <li>February 27th <br>
+     Saturday 11 am - 4 pm
      </li>
     </ul>
    </div>

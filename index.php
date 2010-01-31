@@ -19,7 +19,7 @@
 <br>
 
 <br><br>
- <?php 
+ <?php
  	require('vw/head/logo.php');
  	require 'shop/shop.config.php';
  	require 'vw/head/cart.php';
@@ -27,21 +27,21 @@
 <br><br>
 
 <div class="nav">
- home &middot; 
- <a href="/contact">contact</a> &middot; 
- <a href="shows">shows</a> &middot; 
- <a href="news">press</a> &middot; 
- <a href="stores">stores</a> &middot; 
+ home &middot;
+ <a href="/contact">contact</a> &middot;
+ <a href="shows">shows</a> &middot;
+ <a href="news">news</a> &middot;
+ <a href="stores">stores</a> &middot;
  <a href='javaScript:document.cart.submit()'><span>shopping&nbsp;cart</span></a>
 </div>
 
 <table class=pad_lr align="center" >
 <!-- pictures -->
  <tr >
-  <td class=pad_lr><a href="jewel/neck/"><img src="img/n750-gld-24kp-sml.jpg"/></a></td>
-  <td class=pad_lr><a href="jewel/ear/"><img src="img/e746-prl-gf-sml.jpg"/></a></td>
-  <td class=pad_lr><a href="jewel/arm/"><img src="img/b302-shl-ss-sml.jpg"/></a></td>
-  <td class=pad_lr><a href="jewel/ankle/"><img src="img/a303-shl-ss-sml.jpg"/></a></td>
+  <td class=pad_lr><a href="jewel/neck/index.php?page=6"><img src="img/n111-med-24k-sml.jpg"/></a></td>
+  <td class=pad_lr><a href="jewel/ear/index.php?page=6"><img src="img/e100-cir-24k-sml.jpg"/></a></td>
+  <td class=pad_lr><a href="jewel/arm/index.php?page=4"><img src="img/b400-lts-24kgp-sml.jpg"/></a></td>
+  <td class=pad_lr><a href="jewel/ankle/index.php?page=2"><img src="img/a303-shl-ss-sml.jpg"/></a></td>
  </tr>
  <tr><td colspan="4" ><img src="img/nada.gif" class=img_line></td>
  </tr>
