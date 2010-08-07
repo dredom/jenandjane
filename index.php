@@ -38,8 +38,8 @@
 <table class=pad_lr align="center" >
 <!-- pictures -->
  <tr >
-  <td class=pad_lr><a href="jewel/neck/index.php?page=6"><img src="img/n111-med-24k-sml.jpg"/></a></td>
-  <td class=pad_lr><a href="jewel/ear/index.php?page=6"><img src="img/e100-cir-24k-sml.jpg"/></a></td>
+  <td class=pad_lr><a href="jewel/neck/index.php?page=8"><img src="img/n111-med-24k-sml.jpg"/></a></td>
+  <td class=pad_lr><a href="jewel/ear/index.php?page=7"><img src="img/e100-cir-24k-sml.jpg"/></a></td>
   <td class=pad_lr><a href="jewel/arm/index.php?page=4"><img src="img/b400-lts-24kgp-sml.jpg"/></a></td>
   <td class=pad_lr><a href="jewel/ankle/index.php?page=2"><img src="img/a303-shl-ss-sml.jpg"/></a></td>
  </tr>
