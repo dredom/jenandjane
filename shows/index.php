@@ -1,7 +1,7 @@
 <html>
 <head><title>Jen + Jane - Shows</title>
  <meta name="description" content="Gems, Jewels and Designs by Jen and Jane, featuring original designs for bracelets in semi-precious stones, gold and silver." />
- <meta name="keywords" content="jewelry, designer, Jen, Jane, published, news, shows, sell, sale, necklace, earring, bracelet, semi precious" />
+ <meta name="keywords" content="designer jewelry, Jen, Jane, published, shows, sell, sale, necklace, earring, bracelet, semi precious" />
  <link rel=StyleSheet href="/css/style.css" type="text/css">
  <style type="text/css">
   .area {
@@ -46,13 +46,11 @@
  require('../vw/head/nav.php');
 ?>
 
-<p>Come celebrate our store, jen + jane at Pomm, in Studio City!</p>
-
  <div class="area">
   <b> Studio City</b>
   <div class="location">
    <div class="where">
-    <ul><li><i>Pomm</i><br>
+    <ul><li><i>Jen + Jane</i><br>
             4330 Tujunga Avenue<br>
             Studio City, CA 91604<br>
             (818) 752-7521
@@ -61,11 +59,11 @@
    </div>
    <div class="when">
     <ul>
-     <li><i>Our Valentine's Event!</i> <br>
-     February 12th <br>
-     Friday noon - 9 pm <br>
+     <li><i>Grand reopening event!</i><br>
+     October 16th<br>
+     Saturday 11am - 9pm <br>
+     Come by anytime and see our fabulous remodeled store!
      </li>
-
     </ul>
    </div>
   </div> <!-- location -->
@@ -83,9 +81,8 @@
    </div>
    <div class="when">
     <ul>
-     <li><i>Valentine's Show</i> <br>
-     February 11th <br>
-     Thursday 10 am - 7 pm <br>
+     <li>(Pending) September 30th - October 1st <br>
+     Thursday & Friday, 9am - 6pm
      </li>
     </ul>
    </div>
@@ -105,7 +102,8 @@
    </div>
    <div class="when">
     <ul>
-     <li>(Pending Valentine's show)
+     <li>November 17th - 19th <br>
+     Wednesday - Friday, 10am - 3pm
      </li>
     </ul>
    </div>
@@ -136,6 +134,28 @@
  </div> <!-- area -->
 
  <div class="area">
+  <b> Pasadena</b>
+  <div class="location">
+   <div class="where">
+    <ul><li><i>Carver Elementary School</i><br>
+            San Marino Center<br>
+            1800 Huntington Dr <br>
+            San Marino, CA 91108<br>
+            (818) 297-9000
+         </li>
+    </ul>
+   </div>
+   <div class="when">
+    <ul>
+     <li>October 17th <br>
+     Sunday noon - 5pm
+     </li>
+    </ul>
+   </div>
+  </div> <!-- location -->
+ </div> <!-- area -->
+
+ <div class="area">
   <b> Stevenson Ranch</b>
   <div class="location">
    <div class="where">
@@ -148,11 +168,8 @@
    </div>
    <div class="when">
     <ul>
-     <li>February 6th<br>
-     Saturday 11 am - 4 pm
-     </li>
-     <li>February 20th <br>
-     Saturday 11 am - 4 pm
+     <li>October 30th <br>
+     Saturday, noon - 5pm
      </li>
 
     </ul>
@@ -173,7 +190,11 @@
    </div>
    <div class="when">
     <ul>
-     <li>(Pending)
+     <li>October 23rd <br>
+    Saturday, 10am - 3pm
+     </li>
+     <li>November 20th <br>
+    Saturday, 10am - 3pm
      </li>
     </ul>
    </div>
@@ -193,12 +214,9 @@
    </div>
    <div class="when">
     <ul>
-     <li>February 13th <br>
-     Saturday 11 am - 4 pm
-     </li>
-     <li>February 27th <br>
-     Saturday 11 am - 4 pm
-     </li>
+      <li>October 2nd <br>
+      Saturday, noon - 5pm
+      </li>
     </ul>
    </div>
   </div> <!-- location -->
@@ -207,6 +225,23 @@
 
  <div class="area">
   <b> Orange County</b>
+  <div class="location">
+   <div class="where">
+    <ul><li><i>Calispia Spa Clothing </i>- Corporate Warehouse Sale <br>
+            1041 W. 18th Street, Suite A110 <br>
+			Costa Mesa, CA 92627<br>
+			(In back warehouse) <br>
+			(818) 297-9000
+         </li>
+    </ul>
+   </div>
+   <div class="when">
+    <ul>
+     <li>(Pending) <br>
+     </li>
+    </ul>
+   </div>
+  </div>
   <div class="location">
    <div class="where">
     <ul><li>South Coast Plaza<br>
@@ -219,27 +254,30 @@
    </div>
    <div class="when">
     <ul>
-     <li>(Pending) <br>
+     <li>November 13th - 14th <br>
+     Friday & Saturday, noon - 7pm
      </li>
     </ul>
    </div>
-  </div> <!-- location -->
+  </div>
   <div class="location">
    <div class="where">
-    <ul><li> <i>Calispia</i> (Designer Clothing Showroom) <br>
-            1041 W. 18th Street A110 (behind the building) <br>
-            Costa Mesa, CA 92627<br>
-			(949) 645-8123
+    <ul><li>South Coast Plaza<br>
+            <i>Molton Brown</i> <br>
+            3333 Bristol St. Suite 2860 <br>
+            Costa Mesa, CA 92626<br>
+			(714) 549-5951
          </li>
     </ul>
    </div>
    <div class="when">
     <ul>
-     <li>(Pending)<br>
+     <li>October 9th - 10th <br>
+     Saturday & Sunday, noon - 7pm
      </li>
     </ul>
    </div>
-  </div> <!-- location -->
+  </div>
  </div> <!-- area -->
 
 
