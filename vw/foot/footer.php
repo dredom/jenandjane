@@ -1,7 +1,7 @@
 <br>
 <center>
  <font size=1>
-  Copyright &copy; 2003 - 2010 Jen and Jane, all rights reserved.
+  Copyright &copy; 2003 - 2011 Jen and Jane, all rights reserved.
   &nbsp;
   <a href=/terms/index.php>Terms &amp; Conditions</a>
  </font>

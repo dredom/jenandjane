@@ -46,28 +46,6 @@
  require('../vw/head/nav.php');
 ?>
 
- <div class="area">
-  <b> Studio City</b>
-  <div class="location">
-   <div class="where">
-    <ul><li><i>Jen + Jane</i><br>
-            4330 Tujunga Avenue<br>
-            Studio City, CA 91604<br>
-            (818) 752-7521
-         </li>
-    </ul>
-   </div>
-   <div class="when">
-    <ul>
-     <li><i>Grand reopening event!</i><br>
-     October 16th<br>
-     Saturday 11am - 9pm <br>
-     Come by anytime and see our fabulous remodeled store!
-     </li>
-    </ul>
-   </div>
-  </div> <!-- location -->
- </div> <!-- area -->
 
  <div class="area">
   <b> Glendale</b>
@@ -81,8 +59,7 @@
    </div>
    <div class="when">
     <ul>
-     <li>(Pending) September 30th - October 1st <br>
-     Thursday & Friday, 9am - 6pm
+     <li>  (Pending)<br>
      </li>
     </ul>
    </div>
@@ -102,7 +79,7 @@
    </div>
    <div class="when">
     <ul>
-     <li>November 17th - 19th <br>
+     <li>September 22 - 23<br/>
      Wednesday - Friday, 10am - 3pm
      </li>
     </ul>
@@ -147,8 +124,7 @@
    </div>
    <div class="when">
     <ul>
-     <li>October 17th <br>
-     Sunday noon - 5pm
+     <li>(Pending) <br>
      </li>
     </ul>
    </div>
@@ -168,8 +144,23 @@
    </div>
    <div class="when">
     <ul>
-     <li>October 30th <br>
-     Saturday, noon - 5pm
+     <li>July 8 - 9 <br>
+     Friday &amp; Saturday, 10am - 5pm
+     </li>
+     <li>July 22 - 23 <br>
+     Friday &amp; Saturday, 10am - 5pm
+     </li>
+     <li>August 12 - 13 <br>
+     Friday &amp; Saturday, 10am - 5pm
+     </li>
+     <li>August 26 - 27 <br>
+     Friday &amp; Saturday, 10am - 5pm
+     </li>
+     <li>September 9 - 10 <br>
+     Friday &amp; Saturday, 10am - 5pm
+     </li>
+     <li>September 30, October 1 <br>
+     Friday &amp; Saturday, 10am - 5pm
      </li>
 
     </ul>
@@ -190,11 +181,7 @@
    </div>
    <div class="when">
     <ul>
-     <li>October 23rd <br>
-    Saturday, 10am - 3pm
-     </li>
-     <li>November 20th <br>
-    Saturday, 10am - 3pm
+     <li>(Pending)
      </li>
     </ul>
    </div>
@@ -214,9 +201,12 @@
    </div>
    <div class="when">
     <ul>
-      <li>October 2nd <br>
-      Saturday, noon - 5pm
-      </li>
+     <li>August 6 <br>
+      Saturday, 10am - 5pm
+     </li>
+     <li>September 3 <br>
+      Saturday, 10am - 5pm
+     </li>
     </ul>
    </div>
   </div> <!-- location -->
@@ -227,11 +217,11 @@
   <b> Orange County</b>
   <div class="location">
    <div class="where">
-    <ul><li><i>Calispia Spa Clothing </i>- Corporate Warehouse Sale <br>
-            1041 W. 18th Street, Suite A110 <br>
-			Costa Mesa, CA 92627<br>
-			(In back warehouse) <br>
-			(818) 297-9000
+    <ul><li>South Coast Plaza<br>
+            <i>Jo Malone</i> <br>
+            3333 Bristol St. Suite 2881 <br>
+            Costa Mesa, CA 92626<br>
+			(949) 645-8123
          </li>
     </ul>
    </div>
@@ -245,35 +235,17 @@
   <div class="location">
    <div class="where">
     <ul><li>South Coast Plaza<br>
-            <i>Jo Malone</i> <br>
-            3333 Bristol St. Suite 2881 <br>
-            Costa Mesa, CA 92626<br>
-			(949) 645-8123
-         </li>
-    </ul>
-   </div>
-   <div class="when">
-    <ul>
-     <li>November 13th - 14th <br>
-     Friday & Saturday, noon - 7pm
-     </li>
-    </ul>
-   </div>
-  </div>
-  <div class="location">
-   <div class="where">
-    <ul><li>South Coast Plaza<br>
             <i>Molton Brown</i> <br>
             3333 Bristol St. Suite 2860 <br>
             Costa Mesa, CA 92626<br>
-			(714) 549-5951
+			(714) 549 5951
          </li>
     </ul>
    </div>
    <div class="when">
     <ul>
-     <li>October 9th - 10th <br>
-     Saturday & Sunday, noon - 7pm
+     <li>July 16 <br>
+     Saturday, noon - 6pm
      </li>
     </ul>
    </div>

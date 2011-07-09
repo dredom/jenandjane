@@ -28,9 +28,9 @@
  <a href=/stores >Click here for store locations.</a>
  <br><br>
  <br> jen + jane
- <br> po box 199
- <br> woodland hills
- <br> california 91365
+ <br> PO Box 1331
+ <br> San Luis Obispo
+ <br> California 93406
  <br>
  <br> 818/297-9000
  <br>

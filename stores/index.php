@@ -32,28 +32,6 @@
 
 <ul type=circle>
 
- <li><span>Studio City, CA:</span>
-
-	<br><br>
- * Our partner store *<br>
- <big>
-  POMM <br>
-  4330 Tujunga Avenue
-  <br>
-  Studio City,  CA 91604
-  <br>
-  <small>(<a href="http://maps.google.com/maps?q=POMM&near=4330+Tujunga+Ave,+Studio+City,+Los+Angeles,+California+91604">map</a>)</small>
-  <br>
-  818-752-7521
-  </big>
-  <div align="center" style="margin-top: 5px">
-<div style="margin-left:auto; margin-right:auto; width:640px; background-color: #990000; color: #ffbebe; border-style: double;">
- <img src="http://www.jenandjane.com/img/pommstore1.jpg" border="0" alt="POMM store">
-</div>
-  </div>
-
-	<br><br>
- </li>
 
  <li><span>Bakersfield, CA:</span>
    <br><br>
@@ -74,16 +52,6 @@ Manhattan Beach, CA 90266 <br>
   <small>(<a href="http://maps.google.com/maps?q=The+Loft+Salon&near=1015+N+Manhattan+Ave,Manhattan+Beach,CA+90266">map</a>)</small>
   <br>
 310-372-6119 <br>
-	<br><br>
-  </li>
-
- <li><span>Irvine, CA:</span>
-	<br><br>
-Calispia<br>
-University Plaza Shopping Center <br>
-Campus Drive <br>
-Irvine, CA 92612 <br>
-818-297-9000 <br>
 	<br><br>
   </li>
 
