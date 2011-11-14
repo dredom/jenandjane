@@ -79,8 +79,7 @@
    </div>
    <div class="when">
     <ul>
-     <li>September 22 - 23<br/>
-     Wednesday - Friday, 10am - 3pm
+     <li>(Pending)
      </li>
     </ul>
    </div>
@@ -144,23 +143,14 @@
    </div>
    <div class="when">
     <ul>
-     <li>July 8 - 9 <br>
-     Friday &amp; Saturday, 10am - 5pm
+     <li>November 19<sup><small>th</small></sup> <br>
+     Saturday, 10am - 5pm
      </li>
-     <li>July 22 - 23 <br>
-     Friday &amp; Saturday, 10am - 5pm
+     <li>December 10<sup><small>th</small></sup> <br>
+     Saturday, 10am - 5pm
      </li>
-     <li>August 12 - 13 <br>
-     Friday &amp; Saturday, 10am - 5pm
-     </li>
-     <li>August 26 - 27 <br>
-     Friday &amp; Saturday, 10am - 5pm
-     </li>
-     <li>September 9 - 10 <br>
-     Friday &amp; Saturday, 10am - 5pm
-     </li>
-     <li>September 30, October 1 <br>
-     Friday &amp; Saturday, 10am - 5pm
+     <li>December 17<sup><small>th</small></sup> <br>
+     Saturday, 10am - 5pm
      </li>
 
     </ul>
@@ -201,11 +191,7 @@
    </div>
    <div class="when">
     <ul>
-     <li>August 6 <br>
-      Saturday, 10am - 5pm
-     </li>
-     <li>September 3 <br>
-      Saturday, 10am - 5pm
+     <li>(Pending) <br>
      </li>
     </ul>
    </div>
@@ -244,8 +230,7 @@
    </div>
    <div class="when">
     <ul>
-     <li>July 16 <br>
-     Saturday, noon - 6pm
+     <li>(Pending) <br>
      </li>
     </ul>
    </div>
