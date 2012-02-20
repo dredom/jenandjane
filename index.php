@@ -60,7 +60,7 @@
 
 
   <p align="center">
-   <span class=heading><a href="special">* website special *</a></span>
+   <span class=heading><a href="special">* february special *</a></span>
   </p>
   <?php include 'vw/foot/footer.php'?>
 

@@ -1,11 +1,13 @@
 <html>
 <head><title>Jen + Jane - Locations</title>
- <meta name="description" content="Gems, Jewels and Designs by Jen and Jane, featuring original designs for bracelets in semi-precious stones, gold and silver." />
- <meta name="keywords" content="designer jewelry, Jen + Jane, locations, semi precious, gold, silver" />
+ <meta name="description" content="Gems, Jewels and Designs by Jen and Jane, store locations." />
+ <meta name="keywords" content="designer jewelry, Jen + Jane, locations, stores, semi precious, gold, silver" />
  <link rel=StyleSheet href="/css/style.css" type="text/css">
  <style type="text/css">
 <!--
+ UL {list-style-type: none}
  LI SPAN {font-size:12pt; font-weight:bold; color:#FFCCCC}
+ A.store {font-style:italic}
 -->
  </style>
 </head>
@@ -30,12 +32,11 @@
 <div align=center>
 <br>
 
-<ul type=circle>
+<ul>
 
-
- <li><span>Bakersfield, CA:</span>
+ <li><span>Bakersfield, CA</span>
    <br><br>
-LoLo's <br>
+<i>LoLo's</i> <br>
 5003 Stockdale Highway <br>
 Bakersfield, CA 93309 <br>
   <small>(<a href="http://maps.google.com/maps?q=LoLo&near=5003+Stockdale+Hwy,+Bakersfield,+Kern,+California+93309">map</a>)</small>
@@ -44,9 +45,33 @@ Bakersfield, CA 93309 <br>
    <br><br>
   </li>
 
- <li><span>Manhattan Beach, CA:</span>
+ <li><span>Beverly Hills, CA</span>
+   <br><br>
+	<a class="store" href="http://kenworthysalon.com">Kenworthy Salon</a> <br>
+220 N Canon Dr # A  <br>
+Beverly Hills, CA 90210 <br>
+  <small>(<a href="http://maps.google.com/maps?oi=map&q=220a+N+Canon+Drive,+Beverly+Hills,+CA+(Kenworthy+Salon)">map</a>)</small>
+  <br>
+310-274-9360 <br>
+   <br><br>
+  </li>
+
+
+ <li><span>California Central Coast</span>
+   <br><br>
+	<a class="store" href="http://www.babyloniansoap.com/">Babylonian Soap Co.</a> <br>
+842 Main Street, <br>
+Morro Bay, CA 93442 <br>
+  <small>(<a href="http://www.manta.com/cmap/mxcpgy8/babylonian-soap-company">map</a>)</small>
+  <br>
+805-758-3248 <br>
+   <br><br>
+  </li>
+
+
+ <li><span>Manhattan Beach, CA</span>
 	<br><br>
-The Loft <br>
+<i>The Loft</i> <br>
 1015 N Manhattan Avenue <br>
 Manhattan Beach, CA 90266 <br>
   <small>(<a href="http://maps.google.com/maps?q=The+Loft+Salon&near=1015+N+Manhattan+Ave,Manhattan+Beach,CA+90266">map</a>)</small>
@@ -55,24 +80,34 @@ Manhattan Beach, CA 90266 <br>
 	<br><br>
   </li>
 
- <li><span>Laguna Beach, CA:</span>
+ <li><span>Laguna Beach, CA</span>
 	<br><br>
-The Montage Resort &amp; Spa <br>
-Treasures <br>
+<i>The Montage Resort &amp; Spa Treasures </i><br>
 30801 South Coast Highway <br>
 Laguna Beach, CA 92651 <br>
 949-715-6196 <br>
 	<br><br>
  </li>
 
- <li><span>Newport Beach, CA: </span>
+ <li><span>Newport Beach, CA </span>
 	<br><br>
-Trompe L’Oeil <br>
+<a class="store" href="http://www.trompeloeilcosmetiques.com">Trompe L’Oeil</a> <br>
 413 29th Street <br>
 Newport Beach, CA 92663 <br>
   <small>(<a href="http://maps.google.com/maps?q=Trompe+L%E2%80%99Oeil&near=413+29th+St,+Newport+Beach,+CA+92663">map</a>)</small>
   <br>
 949-675-2024 <br>
+	<br><br>
+ </li>
+
+ <li><span>Santa Clarita, CA </span>
+	<br><br>
+<a class="store" href="http://www.solasalonstudios.com/">Sola Salon Studios</a> <br>
+26615 Bouquet Canyon Road <br>
+Santa Clarita, CA   91350 <br>
+  <small>(<a href="http://www.scvchamber.com/Directory/Results/map.aspx?ListingID=8599">map</a>)</small>
+  <br>
+661-753-3855  <br>
 	<br><br>
  </li>
 

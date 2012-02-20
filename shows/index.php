@@ -59,7 +59,7 @@
    </div>
    <div class="when">
     <ul>
-     <li>  (Pending)<br>
+     <li>(Pending)
      </li>
     </ul>
    </div>
@@ -143,14 +143,8 @@
    </div>
    <div class="when">
     <ul>
-     <li>November 19<sup><small>th</small></sup> <br>
-     Saturday, 10am - 5pm
-     </li>
-     <li>December 10<sup><small>th</small></sup> <br>
-     Saturday, 10am - 5pm
-     </li>
-     <li>December 17<sup><small>th</small></sup> <br>
-     Saturday, 10am - 5pm
+
+     <li>(Pending)
      </li>
 
     </ul>
