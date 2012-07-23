@@ -9,8 +9,8 @@
 require_once 'facebook.php';
  //echo "<br/>Require facebook.php done! <br/>";
 
-$appapikey = 'e0732c04795de198f534d627376cddfe';
-$appsecret = '7720e563fb2e41c9b41adc1e533e7f35';
+$appapikey = 'e0732c04795de198f5xxxxxxxxxxxx';
+$appsecret = '7720e563fb2e41c9b4xxxxxxxxxx';
 $facebook = new Facebook($appapikey, $appsecret);
 $user = $facebook->require_login();
 

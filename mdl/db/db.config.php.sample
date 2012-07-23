@@ -1,0 +1,6 @@
+<?php
+ $db = 'mydb';
+ $host = 'localhost';
+ $user = 'myuser';
+ $password = 'mypwd';
+?>
