@@ -1,2 +1,5 @@
 /phpMyAdmin
 /mdl/db/db.config.php
+/jjadmin/config.php
+/jjadmin/*log*
+/fb/appinclude.php

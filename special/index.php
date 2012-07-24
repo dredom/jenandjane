@@ -28,28 +28,30 @@
  <table border=1 cellspacing=2>
   <tr>
    <td>
-    <img src="../img/e520-gar-gf-lrg.jpg" alt="earrings" />
+    <img src="../img/b331-prl-bbm-lrg.jpg" alt="bracelets" />
    </td>
   </tr>
  </table>
  
- <i>Garnet grape clusters in a nice deep true burgundy red - finely faceted, high quality and sparkle! 
- 1 3/8" in length from top of earwire. A lovely earring and very easy to wear!  
+ <i>Oceans Collection: A beautiful single freshwater pearl in a light champagne hue centered in hand-macramé!
  
- <br> FEBRUARY SPECIAL
- <br> Special $85 (Regularly $125)
+ <br> JULY SPECIAL
+ <br> Special $87 (Regularly $125)
  <p>
   To Order:
   <br/><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="MFFV4A92QZFVS">
+<input type="hidden" name="hosted_button_id" value="M25NBKBPMNVKW">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
 
 
-  <br/> or email <a href="mailto:jane@jenandjane.com?subject=jen + jane Holiday special &body=Order description: Oceans Collection%0AOrder item: bracelet%0A%0AMy name is: %0A%0AMy phone number is: %0A%0ATimes to call me: " 
+
+
+
+  <br/> or email <a href="mailto:jane@jenandjane.com?subject=jen + jane June special &body=Order description: Freshwater pearl macrame bracelet%0AOrder item: b331-prl-bbm%0A%0AMy name is: %0A%0AMy phone number is: %0A%0ATimes to call me: " 
   		>jane@jenandjane.com</a>
   <br/> or call 818-297-9000
  </p>

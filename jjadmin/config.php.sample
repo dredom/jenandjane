@@ -11,7 +11,7 @@
  define(DOCPATH, $docpath);
  define(LOGFILE, DOCPATH . '/jjadmin/jj.log');
  error_reporting(E_ERROR | E_PARSE | E_CORE_ERROR | E_COMPILE_ERROR | E_USER_ERROR);
- $db = 'jjdb';
- $user = 'jenjane';
- $password = 'gem24$';
+ $db = 'mydb';
+ $user = 'myuser';
+ $password = 'mypwd';
 ?>
