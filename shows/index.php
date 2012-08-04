@@ -38,7 +38,7 @@
  <?php require('../vw/head/logo.php'); ?>
  <br>
 
- <span class=heading>shows</span>
+ <h1 class=heading>shows</h1>
 
 <?php
  define("SITE","shows");
@@ -144,7 +144,14 @@
    <div class="when">
     <ul>
 
-     <li>(Pending)
+     <li>August 4<sup>th</sup> <br>
+     Saturday 10am - 5pm
+     </li>
+     <li>August 18<sup>th</sup> <br>
+     Saturday 9am - 5pm
+     </li>
+     <li>August 25<sup>th</sup> <br>
+     Saturday 9am - 5pm
      </li>
 
     </ul>

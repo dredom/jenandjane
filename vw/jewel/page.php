@@ -87,7 +87,7 @@
  <?php require DOCPATH.'vw/head/logo.php'; ?>
  <br>
 
- <span class=heading><?php echo $title?></span>
+ <h1 class=heading><?php echo $title?></h1>
 
 <?php require DOCPATH.'vw/head/nav.php';?>
 <?php require DOCPATH.'vw/head/cart.php';?>
