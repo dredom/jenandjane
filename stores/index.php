@@ -23,7 +23,7 @@
  <?php require('../vw/head/logo.php'); ?>
  <br>
 
- <span class=heading>store locations</span>
+ <h1 class=heading>store locations</h1>
 
 <?php
  define("SITE","stores");
@@ -108,6 +108,17 @@ Santa Clarita, CA   91350 <br>
   <small>(<a href="http://www.scvchamber.com/Directory/Results/map.aspx?ListingID=8599">map</a>)</small>
   <br>
 661-753-3855  <br>
+	<br><br>
+ </li>
+ 
+ <li><span>Studio City, CA </span>
+	<br><br>
+<a class="store" href="http://www.http://henryroad.com">Henry Road</a> <br>
+3949 Laurelgrove Ave,  <br>
+Studio City, CA   91604 <br>
+  <small>(<a href="https://maps.google.com/maps?q=3949+Laurelgrove+Ave,+Studio+City,+CA+91604">map</a>)</small>
+  <br>
+818-762-8966  <br>
 	<br><br>
  </li>
 

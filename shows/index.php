@@ -144,9 +144,6 @@
    <div class="when">
     <ul>
 
-     <li>August 4<sup>th</sup> <br>
-     Saturday 10am - 5pm
-     </li>
      <li>August 18<sup>th</sup> <br>
      Saturday 9am - 5pm
      </li>
@@ -172,7 +169,8 @@
    </div>
    <div class="when">
     <ul>
-     <li>(Pending)
+     <li>September 1<sup>st</sup> <br>
+     Saturday 10am - 2pm
      </li>
     </ul>
    </div>

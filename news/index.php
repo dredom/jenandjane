@@ -56,6 +56,16 @@
  <br>
  <div id="news-item">
   <ul>
+   <li>September 2012 &ndash; Henry Road is selling jen+jane jewelry. 818-762-8966<br>
+   <img src="http://site.henryroad.com/images/1_4731.jpg" alt="Henry Road" title="Henry Road Store"/>
+   <br>3949 Laurelgrove Ave, Studio City, CA 91604
+   <a href="https://maps.google.com/maps?q=3949+Laurelgrove+Ave,+Studio+City,+CA+91604">
+   <span style="font-size:x-small">map</span></a>
+   </li>
+  </ul>
+ </div>
+ <div id="news-item">
+  <ul>
    <li>April 2012 &ndash; <a class="store" href="http://www.babyloniansoap.com/">Babylonian Soap Co.</a>
      starts selling jen+jane jewelry. &nbsp; 805-758-3248<br>
     <a href="http://www.babyloniansoap.com/">
@@ -85,16 +95,7 @@ Santa Clarita, CA   91350
    </li>
   </ul>
  </div>
- <div id="news-item">
-  <ul>
-   <li>January 2010 &ndash; LoLo's of Bakersfield carries the jen+jane line of jewelry. 661-835-5656<br>
-   <img src="http://people.bakersfield.com/file/picture/319851/1/0/" alt="LoLo's" title="LoLo's Store"/>
-   <br>5003 Stockdale Hwy, Bakersfield CA 93309
-   <a href="http://people.bakersfield.com/home/Business/Lolos/View_Map">
-   <span style="font-size:x-small">map</span></a>
-   </li>
-  </ul>
- </div>
+
  <div id="news-item">
   <ul>
    <li>August 2007 &ndash; A jen+jane necklace adorned model Nicole Sion

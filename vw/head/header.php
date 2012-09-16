@@ -19,7 +19,7 @@
  <?php require 'logo.php'; ?>
  <br>
 
- <span class=heading><?php echo $title?></span>
+ <h1 class=heading><?php echo $title?></h1>
 
 <?php
  require('nav.php');
