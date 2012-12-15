@@ -63,30 +63,7 @@
      </li>
     </ul>
    </div>
-  </div> <!-- location -->
  </div> <!-- area -->
-
- <div class="area">
-  <b> Downtown Los Angeles</b>
-  <div class="location">
-   <div class="where">
-    <ul><li><i>The Gas Company Towers</i>, 2<sup>nd</sup> floor<br>
-            555 West 5<sup>th</sup> Street<br>
-            Los Angeles, CA 90013<br>
-            (818) 297-9000
-         </li>
-    </ul>
-   </div>
-   <div class="when">
-    <ul>
-     <li>(Pending)
-     </li>
-    </ul>
-   </div>
-  </div> <!-- location -->
- </div> <!-- area -->
-
-
 
 
  <div class="area">
@@ -144,11 +121,8 @@
    <div class="when">
     <ul>
 
-     <li>August 18<sup>th</sup> <br>
-     Saturday 9am - 5pm
-     </li>
-     <li>August 25<sup>th</sup> <br>
-     Saturday 9am - 5pm
+     <li>December 15<sup>th</sup> - 16<sup>th</sup> <br>
+     Saturday & Sunday 10am - 5pm
      </li>
 
     </ul>
@@ -169,8 +143,7 @@
    </div>
    <div class="when">
     <ul>
-     <li>September 1<sup>st</sup> <br>
-     Saturday 10am - 2pm
+     <li>(Pending) <br>
      </li>
     </ul>
    </div>
