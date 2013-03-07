@@ -49,6 +49,7 @@
 
  <div class="area">
   <b> Glendale</b>
+
   <div class="location">
    <div class="where">
     <ul><li><i>Glendale Center</i><br>
@@ -86,26 +87,6 @@
   </div> <!-- location -->
  </div> <!-- area -->
 
- <div class="area">
-  <b> Pasadena</b>
-  <div class="location">
-   <div class="where">
-    <ul><li><i>Carver Elementary School</i><br>
-            San Marino Center<br>
-            1800 Huntington Dr <br>
-            San Marino, CA 91108<br>
-            (818) 297-9000
-         </li>
-    </ul>
-   </div>
-   <div class="when">
-    <ul>
-     <li>(Pending) <br>
-     </li>
-    </ul>
-   </div>
-  </div> <!-- location -->
- </div> <!-- area -->
 
  <div class="area">
   <b> Stevenson Ranch</b>
@@ -121,8 +102,11 @@
    <div class="when">
     <ul>
 
-     <li>December 15<sup>th</sup> - 16<sup>th</sup> <br>
-     Saturday & Sunday 10am - 5pm
+     <li>March 9<sup>th</sup> <br>
+     Saturday 10am - 5pm
+     </li>
+     <li>March 16<sup>th</sup> <br>
+     Saturday 10am - 5pm
      </li>
 
     </ul>
@@ -143,7 +127,8 @@
    </div>
    <div class="when">
     <ul>
-     <li>(Pending) <br>
+     <li>February 23<sup><small>rd</small></sup> <br>
+     Saturday 10am - 4pm
      </li>
     </ul>
    </div>

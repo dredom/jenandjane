@@ -32,27 +32,46 @@
  <table border=1 cellspacing=2>
   <tr>
    <td>
-    <img src="../img/b201-wrp-brn-lrg.jpg" alt="Silk macramé bracelet" />
+    <img src="../img/e107-drp-ss-lrg.jpg" alt="Raindrop earrings" />
    </td>
   </tr>
  </table>
  
- <h3>Our hand-crafted Silk Macramé Bracelet is a favorite from our Oceans Collection 2012.
-  Fabulous worn as a necklace or wrapped around the wrist giving a warm layered look.  
-The silk macramé is a warm neutral tone - dark brown, mixed with the soothing blue/green hues
- of Aquamarine pebbles, gold Pyrite and dark reflective Hematite - adding balance &amp; texture.</h3>
+ <h3>Raindrop earrings! Our Favorite of our small dangle earrings
+</h3>
+ <p>
+The Raindrop earrings can be ordered in either the teardrop
+or the pointed drop.  Available in a 24K gold plate matte finish
+or in Sterling Silver shiny finish.  Raindrops measure &frac34;" in length.
+Simply a fabulous earring!
+ </p>
  
- <br> DECEMBER SPECIAL
- <br> Special $190 (Regularly $240)
+ 
+ <br>&hearts; February SPECIAL &hearts;
+ <br> Teardrops:  24KGP Sale $72 (Reg $110)/Sterling Silver Sale $45 (Reg $72)
+  <br> Pointed Drops: 24KGP Sale $59 (Reg $85)/Sterling Silver Sale $39 (Reg $55)
  <p>
   <br/><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="V8P26SFYDHPPA">
+<input type="hidden" name="hosted_button_id" value="CQDS7CTMXMSTW">
+<table>
+<tr><td><input type="hidden" name="on0" value="style">style</td></tr><tr><td><select name="os0">
+	<option value="teardrop gold">teardrop gold $72.00 USD</option>
+	<option value="teardrop silver">teardrop silver $45.00 USD</option>
+	<option value="pointed drop gold">pointed drop gold $59.00 USD</option>
+	<option value="pointed drop silver">pointed drop silver $39.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-  <br/> or email <a href="mailto:jane@jenandjane.com?subject=jen + jane December special &body=Order description: Brown macramé bracelet%0AOrder item: b201-wrp-brn%0A%0AMy name is: %0A%0AMy phone number is: %0A%0ATimes to call me: " 
+
+
+
+
+  <br/> or email <a href="mailto:jane@jenandjane.com?subject=jen + jane February special &body=Order description: Raindrops earring%0AOrder item: e107-drp-ss%0A%0AMy name is: %0A%0AMy phone number is: %0A%0ATimes to call me: " 
   		>jane@jenandjane.com</a>
   <br/> or call 818-297-9000
  </p>
