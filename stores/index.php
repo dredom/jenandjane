@@ -34,28 +34,6 @@
 
 <ul>
 
- <li><span>Bakersfield, CA</span>
-   <br><br>
-<i>LoLo's</i> <br>
-5003 Stockdale Highway <br>
-Bakersfield, CA 93309 <br>
-  <small>(<a href="http://maps.google.com/maps?q=LoLo&near=5003+Stockdale+Hwy,+Bakersfield,+Kern,+California+93309">map</a>)</small>
-  <br>
-661-835-5656 <br>
-   <br><br>
-  </li>
-
- <li><span>Beverly Hills, CA</span>
-   <br><br>
-	<a class="store" href="http://kenworthysalon.com">Kenworthy Salon</a> <br>
-220 N Canon Dr # A  <br>
-Beverly Hills, CA 90210 <br>
-  <small>(<a href="http://maps.google.com/maps?oi=map&q=220a+N+Canon+Drive,+Beverly+Hills,+CA+(Kenworthy+Salon)">map</a>)</small>
-  <br>
-310-274-9360 <br>
-   <br><br>
-  </li>
-
 
  <li><span>California Central Coast</span>
    <br><br>
@@ -80,15 +58,6 @@ Manhattan Beach, CA 90266 <br>
 	<br><br>
   </li>
 
- <li><span>Laguna Beach, CA</span>
-	<br><br>
-<i>The Montage Resort &amp; Spa Treasures </i><br>
-30801 South Coast Highway <br>
-Laguna Beach, CA 92651 <br>
-949-715-6196 <br>
-	<br><br>
- </li>
-
  <li><span>Newport Beach, CA </span>
 	<br><br>
 <a class="store" href="http://www.trompeloeilcosmetiques.com">Trompe L’Oeil</a> <br>
@@ -97,17 +66,6 @@ Newport Beach, CA 92663 <br>
   <small>(<a href="http://maps.google.com/maps?q=Trompe+L%E2%80%99Oeil&near=413+29th+St,+Newport+Beach,+CA+92663">map</a>)</small>
   <br>
 949-675-2024 <br>
-	<br><br>
- </li>
-
- <li><span>Santa Clarita, CA </span>
-	<br><br>
-<a class="store" href="http://www.solasalonstudios.com/">Sola Salon Studios</a> <br>
-26615 Bouquet Canyon Road <br>
-Santa Clarita, CA   91350 <br>
-  <small>(<a href="http://www.scvchamber.com/Directory/Results/map.aspx?ListingID=8599">map</a>)</small>
-  <br>
-661-753-3855  <br>
 	<br><br>
  </li>
  
@@ -121,7 +79,18 @@ Studio City, CA   91604 <br>
 818-762-8966  <br>
 	<br><br>
  </li>
-
+ 
+ <li><span>Toluca Lake, CA </span>
+	<br><br>
+<a class="store" href="http://alamutt.com">&agrave; la Mutt</a> <br>
+10214 Riverside Drive,  <br>
+Toluca Lake, CA 91602 <br>
+  <small>(<a href="http://maps.google.com/maps?q=a+la+Mutt&near=10214+Riverside+Drive,+Toluca+Lake,+CA+91602">map</a>)</small>
+  <br>
+818-760-3366  <br>
+	<br><br>
+ </li>
+ 
 </ul>
 </div>
 <br>
