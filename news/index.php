@@ -54,6 +54,27 @@
 ?>
 <div id="content" >
  <br>
+
+ <div id="news-item">
+  <ul>
+   <li>February 2013 &ndash; Singer/actress Cynthia Basinet wears jen+jane earrings to the 
+   23rd Annual <i>Night of 100 Stars</i> Oscars Viewing Gala in Beverley Hills.
+   <img src="/img/news/CynthiaBasinet.jpg" alt="Cynthia Basinet" title="Cynthia Basinet"/>
+   <br> <span style="font-size:x-small">Photography by Glen Lipton</span>
+   </li>
+  </ul>
+ </div>
+ 
+ <div id="news-item">
+  <ul>
+   <li>February 2013 &ndash; &agrave; la Mutt is selling jen+jane jewelry. 818-760-3366<br>
+   <img src="http://alamutt.com/site/wp-content/uploads/2010/04/ALM-Interior-2010-2-225x300.jpg" alt="&agrave; la Mutt" title="&agrave; la Mutt Store"/>
+   <br>10214 Riverside Drive, Toluca Lake, CA 91602
+   <a href="http://maps.google.com/maps?q=a+la+Mutt&near=10214+Riverside+Drive,+Toluca+Lake,+CA+91602">
+   <span style="font-size:x-small">map</span></a>
+   </li>
+  </ul>
+ </div>
  <div id="news-item">
   <ul>
    <li>September 2012 &ndash; Henry Road is selling jen+jane jewelry. 818-762-8966<br>
@@ -77,24 +98,6 @@
   </ul>
  </div>
  
- <div id="news-item">
-  <ul>
-   <li>January 2012 &ndash; new stores carrying the jen+jane line of jewelry:<br>
-    <ul class="store">
-     <li>	<a class="store" href="http://kenworthysalon.com">Kenworthy Salon</a>,
-220 N Canon Dr # A,
-Beverly Hills, CA 90210 
-  <small>(<a href="http://maps.google.com/maps?oi=map&q=220a+N+Canon+Drive,+Beverly+Hills,+CA+(Kenworthy+Salon)">map</a>)</small>
-     </li>
-     <li><a class="store" href="http://www.solasalonstudios.com/">Sola Salon Studios</a>,
-26615 Bouquet Canyon Road,
-Santa Clarita, CA   91350 
-  <small>(<a href="http://www.scvchamber.com/Directory/Results/map.aspx?ListingID=8599">map</a>)</small>
-     </li>
-    </ul>
-   </li>
-  </ul>
- </div>
 
  <div id="news-item">
   <ul>
