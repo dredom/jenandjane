@@ -32,34 +32,31 @@
  <table border=1 cellspacing=2>
   <tr>
    <td>
-    <img src="../img/e107-drp-ss-lrg.jpg" alt="Raindrop earrings" />
+    <img src="../img/e100-cir-24k-lrg.jpg" alt="Floating Circle earring" />
    </td>
   </tr>
  </table>
  
- <h3>Raindrop earrings! Our Favorite of our small dangle earrings
-</h3>
+ <h3>Floating Circle earrings!  In Sterling Silver (shiny finish) or 24K gold plate (matte finish).</h3>
+ 
  <p>
-The Raindrop earrings can be ordered in either the teardrop
-or the pointed drop.  Available in a 24K gold plate matte finish
-or in Sterling Silver shiny finish.  Raindrops measure &frac34;" in length.
-Simply a fabulous earring!
+Our floating circle earrings are a fabulous everyday earring and a jen + jane classic!
+ Each circle is handmade and floats gently throughout your day.
+Earring measures 3/4" in length from top of earwire. Our small circles measure 3/8" in diameter. 
  </p>
  
  
- <br>&hearts; February SPECIAL &hearts;
- <br> Teardrops:  24KGP Sale $72 (Reg $110)/Sterling Silver Sale $45 (Reg $72)
-  <br> Pointed Drops: 24KGP Sale $59 (Reg $85)/Sterling Silver Sale $39 (Reg $55)
+ <br> May SPECIAL 
+ <br> Sterling Silver:   $38 (Reg $55)
+ <br> Gold 24KGP: &nbsp; &nbsp;  $55 (Reg $72)
  <p>
-  <br/><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+  <br/><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="CQDS7CTMXMSTW">
+<input type="hidden" name="hosted_button_id" value="7QUD2QQRLJP76">
 <table>
-<tr><td><input type="hidden" name="on0" value="style">style</td></tr><tr><td><select name="os0">
-	<option value="teardrop gold">teardrop gold $72.00 USD</option>
-	<option value="teardrop silver">teardrop silver $45.00 USD</option>
-	<option value="pointed drop gold">pointed drop gold $59.00 USD</option>
-	<option value="pointed drop silver">pointed drop silver $39.00 USD</option>
+<tr><td><input type="hidden" name="on0" value="choose">choose</td></tr><tr><td><select name="os0">
+	<option value="Sterling Silver">Sterling Silver $38.00 USD</option>
+	<option value="Gold 24KGP">Gold 24KGP $55.00 USD</option>
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="USD">
@@ -69,9 +66,7 @@ Simply a fabulous earring!
 
 
 
-
-
-  <br/> or email <a href="mailto:jane@jenandjane.com?subject=jen + jane February special &body=Order description: Raindrops earring%0AOrder item: e107-drp-ss%0A%0AMy name is: %0A%0AMy phone number is: %0A%0ATimes to call me: " 
+  <br/> or email <a href="mailto:jane@jenandjane.com?subject=jen + jane May special &body=Order description: Wishbone necklace%0AOrder item: e100-cir-24k%0A%0AMy name is: %0A%0AMy phone number is: %0A%0ATimes to call me: " 
   		>jane@jenandjane.com</a>
   <br/> or call 818-297-9000
  </p>
