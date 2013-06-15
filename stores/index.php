@@ -7,7 +7,7 @@
 <!--
  UL {list-style-type: none}
  LI SPAN {font-size:12pt; font-weight:bold; color:#FFCCCC}
- A.store {font-style:italic}
+ a.store {font-style:italic}
 -->
  </style>
 </head>
@@ -77,6 +77,14 @@ Studio City, CA   91604 <br>
   <small>(<a href="https://maps.google.com/maps?q=3949+Laurelgrove+Ave,+Studio+City,+CA+91604">map</a>)</small>
   <br>
 818-762-8966  <br>
+	<br>
+	
+<i>Scentsabilities</i> <br>
+4336 Tujunga Ave,  <br>
+Studio City, CA   91604 <br>
+  <small>(<a href="https://maps.google.com/maps?q=4336+Tujunga+Ave,+Studio+City,+CA+91604">map</a>)</small>
+  <br>
+818-761-7727  <br>
 	<br><br>
  </li>
  
