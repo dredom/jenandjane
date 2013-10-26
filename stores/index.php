@@ -38,9 +38,9 @@
  <li><span>California Central Coast</span>
    <br><br>
 	<a class="store" href="http://www.babyloniansoap.com/">Babylonian Soap Co.</a> <br>
-842 Main Street, <br>
+701 Embarcadero, <br>
 Morro Bay, CA 93442 <br>
-  <small>(<a href="http://www.manta.com/cmap/mxcpgy8/babylonian-soap-company">map</a>)</small>
+  <small>(<a href="http://maps.google.com/maps?near=701+Embarcadero,Morro+Bay,CA+93442">map</a>)</small>
   <br>
 805-758-3248 <br>
    <br><br>

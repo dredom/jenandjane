@@ -57,6 +57,17 @@
 
  <div id="news-item">
   <ul>
+   <li>October 2013 &ndash; Musician Amanda Kramer, keyboard player for  <i>The Psychedelic Furs</i>, 
+   bought several pieces of jen+jane jewelry on a recent visit to 
+   <a href="http://www.babyloniansoap.com/">Babylonian Soap Co.</a> in Morro Bay. 
+   Shown here wearing her "favorite stage piece" - a multi-hued 12mm pearl necklace.
+   <img src="/img/news/AmandaKramer.jpg" alt="Amanda Kramer" title="Amanda Kramer"/>
+   </li>
+  </ul>
+ </div>
+ 
+ <div id="news-item">
+  <ul>
    <li>February 2013 &ndash; Singer/actress Cynthia Basinet wears jen+jane earrings to the 
    23rd Annual <i>Night of 100 Stars</i> Oscars Viewing Gala in Beverley Hills.
    <img src="/img/news/CynthiaBasinet.jpg" alt="Cynthia Basinet" title="Cynthia Basinet"/>
@@ -92,8 +103,8 @@
     <a href="http://www.babyloniansoap.com/">
      <img src="/img/babyloniansoap.jpg" alt="Babylonian Soap Co." title="Babylonian Soap Co."/>
     </a>
-    <br>842 Main Street, Morro Bay, CA 93442 
-    <small>(<a href="http://www.manta.com/cmap/mxcpgy8/babylonian-soap-company">map</a>)</small>
+    <br>701 Embarcadero, Morro Bay, CA 93442 
+    <small>(<a href="http://maps.google.com/maps?near=701+Embarcadero,Morro+Bay,CA+93442">map</a>)</small>
    </li>
   </ul>
  </div>

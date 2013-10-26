@@ -32,41 +32,44 @@
  <table border=1 cellspacing=2>
   <tr>
    <td>
-    <img src="../img/n018-pri-ss-lrg.jpg" alt="Pearl necklace on leather" />
+    <img src="../img/n014-cps-ss-lrg.jpg" alt="Compass Necklace" />
    </td>
   </tr>
  </table>
  
- <h3>Baroque pearl necklace!  On natural leather.</h3>
+ <h3>Compass Traveler's Necklace</h3>
  
  <p>
-A champange baroque pearl rests gently on natural leather. 
-Pearls are unique and each have their own characteristics and beauty taking from 2 to 8 years to be created by the oyster.
- As no two pearls are identical, I like to think of them as unique as each person is unique. 
- A special treasure with it's own beauty.
-17 inches long. 
+We designed the Compass Necklace for travelers - whether you trot the globe or are a traveler at heart! 
+<br>
+ The necklace is adorned with a rose cut white Topaz gem, the birthstone for November. 
+<br>
+The Topaz is said to be a soothing, empathetic stone that will direct energy to the place it is needed most.
+ It heals and energizes, is a promoter of truth and forgiveness. Use it to find your own path; hence it's adornment to this beautiful piece.
+<br>
+ We've paired it along with a heart shaped Amethyst, the gem associated with safe travels, at the clasp. 
+<br>
+
+Whether your travels are spiritual, jetting off to a new land, or a favorite place that you love,
+ our Compass Necklace will be sure to bring pleasure for years to come. 
+<br>
+
+Sterling silver plated compass, 18" sterling silver chain, adorned with Topaz & Amethyst gems.
  </p>
  
  
- <br> June SPECIAL 
- <br> Sterling Silver:   $65 (Reg $89)
+ <br> OCTOBER SPECIAL 
+ <br> Compass necklace:   $59 (Reg $87)
  <p>
   <br/><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="DUBTKPFW6KUCN">
-<table>
-<tr><td><input type="hidden" name="on0" value="leather color">leather color</td></tr><tr><td><select name="os0">
-	<option value="tan">tan </option>
-	<option value="black">black </option>
-</select> </td></tr>
-</table>
+<input type="hidden" name="hosted_button_id" value="2HZRSCN6YMTJW">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
 
-
-  <br/> or email <a href="mailto:jane@jenandjane.com?subject=jen + jane June special &body=Order description: Pearl necklace%0AOrder item: n018-pri-ss%0A%0AMy name is: %0A%0AMy phone number is: %0A%0ATimes to call me: " 
+  <br/> or email <a href="mailto:jane@jenandjane.com?subject=jen + jane June special &body=Order description: Compass necklace%0AOrder item: n014-cps-ss%0A%0AMy name is: %0A%0AMy phone number is: %0A%0ATimes to call me: " 
   		>jane@jenandjane.com</a>
   <br/> or call 818-297-9000
  </p>

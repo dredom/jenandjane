@@ -111,7 +111,7 @@
   <b> Stevenson Ranch</b>
   <div class="location">
    <div class="where">
-    <ul><li><i>The Nail Forum</i> <br/>
+    <ul><li><i><a href="http://nailforum.com">The Nail Forum</a></i> <br/>
             24931 Pico Canyon Road<br>
             Stevenson Ranch, CA 91381<br>
 			(661) 799-9940
@@ -121,10 +121,7 @@
    <div class="when">
     <ul>
 
-     <li>June 15<sup>th</sup> <br>
-     Saturday 10am - 5pm
-     </li>
-     <li>June 22<sup>nd</sup> <br>
+     <li>October  26<sup>th</sup> <br>
      Saturday 10am - 5pm
      </li>
 
@@ -146,7 +143,8 @@
    </div>
    <div class="when">
     <ul>
-     <li>(Pending) <br>
+     <li>July 20<sup>th</sup> <br>
+     Saturday 10am - 3pm
      </li>
     </ul>
    </div>
