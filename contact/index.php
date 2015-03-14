@@ -28,9 +28,9 @@
  <a href=/stores >Click here for store locations.</a>
  <br><br>
  <br> jen + jane
- <br> PO Box 1331
- <br> San Luis Obispo
- <br> California 93406
+ <br> PO Box 712005
+ <br> Los Angeles
+ <br> California 90071-7005
  <br>
  <br> 818/297-9000
  <br>

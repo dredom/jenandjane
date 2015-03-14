@@ -121,7 +121,13 @@
    <div class="when">
     <ul>
 
-     <li>October  26<sup>th</sup> <br>
+     <li>March  14<sup>th</sup> <br>
+     Saturday 10am - 5pm
+     </li>
+     <li>March  21<sup>st</sup> <br>
+     Saturday 10am - 5pm
+     </li>
+     <li>March  28<sup>th</sup> <br>
      Saturday 10am - 5pm
      </li>
 
@@ -143,8 +149,7 @@
    </div>
    <div class="when">
     <ul>
-     <li>July 20<sup>th</sup> <br>
-     Saturday 10am - 3pm
+     <li>(Pending) <br>
      </li>
     </ul>
    </div>
