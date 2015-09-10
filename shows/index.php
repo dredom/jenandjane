@@ -64,27 +64,7 @@
      </li>
     </ul>
    </div>
- </div> <!-- area -->
 
-
- <div class="area">
-  <b> Los Angeles</b>
-
-  <div class="location">
-   <div class="where">
-    <ul><li><i>AT&amp;T/Transamerica Building</i><br>
-    	1150 South Olive Street <br>
-            Los Angeles, CA 90015<br>
-         </li>
-    </ul>
-   </div>
-   <div class="when">
-    <ul>
-     <li>(Pending)
-     </li>
-    </ul>
-   </div>
- </div> <!-- area -->
 
  <div class="area">
   <b> Manhattan Beach</b>
@@ -121,8 +101,8 @@
    <div class="when">
     <ul>
 
-     <li>October  26<sup>th</sup> <br>
-     Saturday 10am - 5pm
+     <li>December  20<sup>th</sup> <br>
+     Saturday 9am - 5pm
      </li>
 
     </ul>
@@ -143,9 +123,9 @@
    </div>
    <div class="when">
     <ul>
-     <li>July 20<sup>th</sup> <br>
-     Saturday 10am - 3pm
+     <li>(Pending)
      </li>
+
     </ul>
    </div>
   </div> <!-- location -->
