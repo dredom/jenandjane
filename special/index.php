@@ -32,44 +32,46 @@
  <table border=1 cellspacing=2>
   <tr>
    <td>
-    <img src="../img/n014-cps-ss-lrg.jpg" alt="Compass Necklace" />
+    <img src="../img/a100-apa-ss-lrg.jpg" alt="Apatite anklet" />
    </td>
   </tr>
  </table>
  
- <h3>Compass Traveler's Necklace</h3>
+ <h3>Apatite Anklet</h3>
  
  <p>
-We designed the Compass Necklace for travelers - whether you trot the globe or are a traveler at heart! 
+Summer has arrived bringing warmer weather and sandals, baring the ankles.  To celebrate we've
+chosen our anklets as our special. Deep blue Apaptite gems wrapped neatly on our satellite chain
+bring a delicate and feminie look.  This rich blue gem is mined in Russia and Brazil and is truly
+a beautiful hue for summer.  
 <br>
- The necklace is adorned with a rose cut white Topaz gem, the birthstone for November. 
-<br>
-The Topaz is said to be a soothing, empathetic stone that will direct energy to the place it is needed most.
- It heals and energizes, is a promoter of truth and forgiveness. Use it to find your own path; hence it's adornment to this beautiful piece.
-<br>
- We've paired it along with a heart shaped Amethyst, the gem associated with safe travels, at the clasp. 
-<br>
-
-Whether your travels are spiritual, jetting off to a new land, or a favorite place that you love,
- our Compass Necklace will be sure to bring pleasure for years to come. 
+ Available in 14k gold filled and sterling silver. Our anklets measure 10", however you may
+ specify any length when ordering in the comments section.
 <br>
 
-Sterling silver plated compass, 18" sterling silver chain, adorned with Topaz & Amethyst gems.
  </p>
  
  
- <br> OCTOBER SPECIAL 
- <br> Compass necklace:   $59 (Reg $87)
+ <br> June/July SPECIAL 
+ <br> Apatite Anklet:   $32 
  <p>
   <br/><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="2HZRSCN6YMTJW">
+<input type="hidden" name="hosted_button_id" value="R968CNQXB4GRL">
+<table>
+<tr><td><input type="hidden" name="on0" value="style">style</td></tr><tr><td><select name="os0">
+	<option value="14k gold filled">14k gold filled $32.00 USD</option>
+	<option value="sterling silver">sterling silver $32.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
 
-  <br/> or email <a href="mailto:jane@jenandjane.com?subject=jen + jane June special &body=Order description: Compass necklace%0AOrder item: n014-cps-ss%0A%0AMy name is: %0A%0AMy phone number is: %0A%0ATimes to call me: " 
+
+  <br/> or email <a href="mailto:jane@jenandjane.com?subject=jen + jane June special &body=Order description: Gold Ohm Medallion necklace%0AOrder item: n101-ohm-24gp%0A%0AMy name is: %0A%0AMy phone number is: %0A%0ATimes to call me: " 
   		>jane@jenandjane.com</a>
   <br/> or call 818-297-9000
  </p>

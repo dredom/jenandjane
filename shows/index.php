@@ -64,27 +64,7 @@
      </li>
     </ul>
    </div>
- </div> <!-- area -->
 
-
- <div class="area">
-  <b> Los Angeles</b>
-
-  <div class="location">
-   <div class="where">
-    <ul><li><i>AT&amp;T/Transamerica Building</i><br>
-    	1150 South Olive Street <br>
-            Los Angeles, CA 90015<br>
-         </li>
-    </ul>
-   </div>
-   <div class="when">
-    <ul>
-     <li>(Pending)
-     </li>
-    </ul>
-   </div>
- </div> <!-- area -->
 
  <div class="area">
   <b> Manhattan Beach</b>

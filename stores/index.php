@@ -44,6 +44,13 @@ Morro Bay, CA 93442 <br>
   <br>
 805-758-3248 <br>
    <br><br>
+   	<a class="store" href="http://www.skinprophecy.com/">Skin Prophecy</a> <br>
+1230 Coast Village Circle suite B, <br>
+Santa Barbara, CA 93108 <br>
+  <small>(<a href="http://maps.google.com/maps?q=Skin+Prophecy+Clinic,near=1230+Coast+Village+Cir,Santa+Barbara,CA+93108">map</a>)</small>
+  <br>
+805-969-6454 <br>
+   <br><br>
   </li>
 
 
