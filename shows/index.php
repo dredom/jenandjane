@@ -121,16 +121,16 @@
    <div class="when">
     <ul>
 
-     <li>March  14<sup>th</sup> <br>
+     <li>July 11<sup>th</sup> <br>
      Saturday 10am - 5pm
      </li>
-     <li>March  21<sup>st</sup> <br>
+     <li>July 18<sup>th</sup> <br>
      Saturday 10am - 5pm
      </li>
-     <li>March  28<sup>th</sup> <br>
+     <li>July 25<sup>th</sup> <br>
      Saturday 10am - 5pm
      </li>
-
+    
     </ul>
    </div>
   </div> <!-- location -->

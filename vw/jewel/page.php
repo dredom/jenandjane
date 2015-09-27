@@ -1,5 +1,6 @@
 <html>
 <head><title>Jen + Jane - Designer <?php echo $title?></title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
  <meta name="description" content="Jen and Jane - Gems, Jewels and Designs by Jane Rietman, featuring original designs in pearls, semi-precious stones, gold and silver." />
  <meta name="keywords" content="designer jewelry, Jen + Jane, pearl <?php echo $title?>, semi precious stone <?php echo $title?>, gold <?php echo $title?>, silver <?php echo $title?>" />
 
