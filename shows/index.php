@@ -1,5 +1,6 @@
 <html>
 <head><title>Jen + Jane - Shows</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
  <meta name="description" content="Gems, Jewels and Designs by Jen and Jane, featuring original designs for bracelets in semi-precious stones, gold and silver." />
  <meta name="keywords" content="designer jewelry, Jen, Jane, published, shows, sell, sale, necklace, earring, bracelet, semi precious" />
  <link rel=StyleSheet href="/css/style.css" type="text/css">

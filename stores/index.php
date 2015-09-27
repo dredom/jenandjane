@@ -1,5 +1,6 @@
 <html>
 <head><title>Jen + Jane - Locations</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
  <meta name="description" content="Gems, Jewels and Designs by Jen and Jane, store locations." />
  <meta name="keywords" content="designer jewelry, Jen + Jane, locations, stores, semi precious, gold, silver" />
  <link rel=StyleSheet href="/css/style.css" type="text/css">
@@ -67,7 +68,7 @@ Manhattan Beach, CA 90266 <br>
 
  <li><span>Newport Beach, CA </span>
 	<br><br>
-<a class="store" href="http://www.trompeloeilcosmetiques.com">Trompe L’Oeil</a> <br>
+<a class="store" href="http://www.trompeloeilcosmetiques.com">Trompe Lï¿½Oeil</a> <br>
 413 29th Street <br>
 Newport Beach, CA 92663 <br>
   <small>(<a href="http://maps.google.com/maps?q=Trompe+L%E2%80%99Oeil&near=413+29th+St,+Newport+Beach,+CA+92663">map</a>)</small>
