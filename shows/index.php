@@ -102,13 +102,16 @@
    <div class="when">
     <ul>
 
-     <li>July 11<sup>th</sup> <br>
+     <li>December 5<sup>th</sup> <br>
      Saturday 10am - 5pm
      </li>
-     <li>July 18<sup>th</sup> <br>
+     <li>December 12<sup>th</sup> <br>
      Saturday 10am - 5pm
      </li>
-     <li>July 25<sup>th</sup> <br>
+     <li>December 19<sup>th</sup> <br>
+     Saturday 10am - 5pm
+     </li>
+     <li>January 2<sup>nd</sup> <br>
      Saturday 10am - 5pm
      </li>
     
