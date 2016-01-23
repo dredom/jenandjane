@@ -21,3 +21,33 @@ Database Conversion:
 3. /jjadmin/convert_arm_descriptions.php
 4. Verify and fix descriptions, prices.
 5. Back up database.
+
+
+=== Edit image names to item names. ===
+
+1. Used to use Picasa to convert images. Now use Photoshop.
+2. Edit filenames to the item number -sml 154px x 107px, -lrg 640px x 430px
+
+
+8. FTP img files to jenandjane.com/img
+9. Update neck/arm/ear/ankle show.config files with item names.
+10. FTP show.config files to jenandjane.com
+11. http://www.jenandjane.com/jjadmin/register_new_ear_items.php
+12. http://www.jenandjane.com/jjadmin/generate_config.php?site=ear
+13. Test
+
+jjadmin/login.php jenjane
+
+Note: Editor is notepad++
+
+
+=== FTP ===
+ ftp -n -s:do.ftp jenandjane.com
+
+ contents...
+
+ user <username> <password>
+ cd httpdocs
+ cd img
+ put file1.jpg
+ quit
