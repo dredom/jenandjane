@@ -102,16 +102,7 @@
    <div class="when">
     <ul>
 
-     <li>December 5<sup>th</sup> <br>
-     Saturday 10am - 5pm
-     </li>
-     <li>December 12<sup>th</sup> <br>
-     Saturday 10am - 5pm
-     </li>
-     <li>December 19<sup>th</sup> <br>
-     Saturday 10am - 5pm
-     </li>
-     <li>January 2<sup>nd</sup> <br>
+     <li>December 17<sup>th</sup> <br>
      Saturday 10am - 5pm
      </li>
     
