@@ -36,11 +36,10 @@
 		$text = ltrim($item->description);
 		if ($text == '')
 			$text = '&nbsp;';	
-		$optionValue = '18"';
 ?>
   <tr>
    <td>
-    <a href="javascript:getLargeImage('<?php echo $item->imageLargeUrl?>', 'image-ajax');">
+    <a href="javascript:getLargeImage('<?php echo $item->imageLargeUrl?>');">
      <img src="<?php echo $item->imageSmallUrl?>" border=0 title='Click for larger image'>
     </a>
    </td>
@@ -200,7 +199,7 @@
  var responseFailure = function(o){ 
 	var val = 'Failed: ' + o.status + ' ' + o.statusText;
 	document.getElementById('msg').innerHTML = val;
- } 
+ };
  
  function callAjax(url, params, successFunction) {
 	var getUrl = '/jewel/<?php echo $site?>/' + url + '?';
@@ -211,7 +210,7 @@
  	  		success:successFunction, 
  		  	failure:responseFailure,
  		  	argument:params
- 	}
+ 	};
  	var transaction = YAHOO.util.Connect.asyncRequest('GET', getUrl, callback); 
  } 
 

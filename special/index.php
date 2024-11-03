@@ -1,3 +1,6 @@
+<?php
+ session_start();
+?>
 <html>
 <head><title>Jen + Jane - Special</title>
  <meta name="description" content="Gems, Jewels and Designs by Jen and Jane, featuring original designs for bracelets in semi-precious stones, gold and silver." />

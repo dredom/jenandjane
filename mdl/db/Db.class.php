@@ -21,13 +21,14 @@
  		} else {
  			include DOCPATH.'mdl/db/db.config.php';
  			//print "NEW instance... $db \n";
- 			self::$instance = new Db($db, $user, $password);
+ 			self::$instance = new Db($db, $host, $user, $password);
  		}
 		return self::$instance;
  	}
 
- 	public function __construct($db, $user, $password) {
+ 	public function __construct($db, $host, $user, $password) {
  		$this->db = $db;
+        $this->host = $host;
  		$this->user = $user;
  		$this->password = $password;
  	}

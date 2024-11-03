@@ -1,5 +1,6 @@
 <?php
  require '../init.php';
+ $title = 'purchase';
  require DOCPATH.'jewel/return_from_paypal.tran.php';
 
  $site = 'shop';

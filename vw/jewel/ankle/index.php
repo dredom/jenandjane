@@ -1,4 +1,7 @@
 <?php
+ session_start();
+?>
+<?php
  $title = 'anklets';
  //define('AUTHORIZED', $authorized);	// for old header.php
  $pageinclude = DOCPATH.'vw/jewel/body.php';

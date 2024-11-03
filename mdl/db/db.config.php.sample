@@ -1,6 +1,6 @@
 <?php
  $db = 'mydb';
- $host = 'localhost';
+ $host = 'mysql.jenandjane.com';
  $user = 'myuser';
  $password = 'mypwd';
 ?>

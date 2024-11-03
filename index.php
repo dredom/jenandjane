@@ -1,3 +1,6 @@
+<?php
+ session_start();
+?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
@@ -21,6 +24,7 @@
 
 <br><br>
  <?php
+    require 'init.php';
  	require('vw/head/logo.php');
  	require 'shop/shop.config.php';
  	require 'vw/head/cart.php';

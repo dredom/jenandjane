@@ -1,3 +1,6 @@
+<?php
+ session_start();
+?>
 <html>
 <head><title>Jen + Jane - Locations</title>
  <meta name="viewport" content="width=device-width, initial-scale=1">

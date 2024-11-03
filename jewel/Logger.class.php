@@ -23,7 +23,8 @@
 
  	public function log($level, $msg){
  		$ip = $_SERVER['REMOTE_ADDR'];
- 		$msg = strftime('%y%m%d %H:%M:%S') . " [$level] $msg [$ip]\r\n";
+ 		//$msg = strftime('%y%m%d %H:%M:%S') . " [$level] $msg [$ip]\r\n";
+        $msg = date('ymd H:i:s') . " [$level] $msg [$ip]\r\n";
  		if (filesize($this->logFile) > 32768) {
  			$f = fopen($this->logFile . '.lock', 'w');
  			if (flock($f, LOCK_EX)) {

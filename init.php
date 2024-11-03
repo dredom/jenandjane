@@ -29,9 +29,9 @@
  
  // Production error handler
  date_default_timezone_set('America/Los_Angeles');
- function errorHandler($error, $error_string, $filename, $line, $symbols) {
+ function errorHandler($error, $error_string, $filename, $line) {
  	$msg = "$error_string " .
-	 	 " on file: $filename line: $line symbols: $symbols";
+	 	 " on file: $filename line: $line";
  	if ($error & (E_ERROR | E_PARSE | E_CORE_ERROR | E_COMPILE_ERROR | E_USER_ERROR)) {
  		Logger::factory()->log('FAIL', $msg);
  		include DOCPATH . 'error.html';
@@ -44,14 +44,15 @@
  set_error_handler('errorHandler');
 
  if (ENV == 'development') {
-	 function errorHandlerDev($error, $error_string, $filename, $line, $symbols) {
+	 function errorHandlerDev($error, $error_string, $filename, $line) {
 	 	echo "<p>error: $error $error_string " .
-	 	 " on file: $filename line: $line symbols: $symbols </p>\n";
+	 	 " on file: $filename line: $line </p>\n";
 	 }
  	set_error_handler('errorHandlerDev');
  }
 
  /*** auto load model classes ***/
+/*
  function __autoload($class_name) {
     $file = DOCPATH . '/mdl/db/' . $class_name . '.class.php';
     if (file_exists($file) == false) {
@@ -59,5 +60,13 @@
     }
   include ($file);
 }
+ */
+
+spl_autoload_register(function ($class_name) {
+    $file = DOCPATH . '/mdl/db/' . $class_name . '.class.php';
+    if (file_exists($file)) {
+        include $class_name . '.php';
+    }
+});
 
 ?>
